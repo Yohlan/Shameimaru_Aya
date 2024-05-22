@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20c16970-aebe-4717-884f-12b507e669de" name="更改" comment="最初的提交.">
+      <change afterPath="$PROJECT_DIR$/AyaModCards.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basegame Character Card Stats.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theAya/src/main/java/theAya/actions/AyaCameraAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/theAya/src/main/java/theAya/actions/AyaCameraAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theAya/src/main/java/theAya/characters/TheAya.java" beforeDir="false" afterPath="$PROJECT_DIR$/theAya/src/main/java/theAya/characters/TheAya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theAya/src/main/resources/theAyaResources/localization/zhs/AyaMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/theAya/src/main/resources/theAyaResources/localization/zhs/AyaMod-Card-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theAya/target/AyaMod.jar" beforeDir="false" afterPath="$PROJECT_DIR$/theAya/target/AyaMod.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theAya/target/classes/theAya/characters/TheAya.class" beforeDir="false" afterPath="$PROJECT_DIR$/theAya/target/classes/theAya/characters/TheAya.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\_Dev\Tools\Java\apache-maven-3.9.6" />
+        <option name="localRepository" value="E:\_Repository\maven-repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\_Dev\Tools\Java\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2bwIevdttgtY030CAhhYAmyuAFB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JAR 应用程序.AyaModDebug.executor": "Run",
+    "Maven.Aya [clean].executor": "Run",
+    "Maven.Aya [package].executor": "Run",
+    "Maven.AyaMod [clean].executor": "Run",
+    "Maven.AyaMod [package].executor": "Run",
+    "Maven.src/main/resources [package].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "extract.method.default.visibility": "private",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Fuyoh/Desktop/爬塔Mod/theAya",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fuyoh\Desktop\爬塔Mod\theAya\theAya\src\main\resources\theAyaResources\images\cards" />
+      <recent name="C:\Users\Fuyoh\Desktop\爬塔Mod\theAya\theAya\src\main\resources\theAyaResources\images\powers" />
+      <recent name="C:\Users\Fuyoh\Desktop\爬塔Mod\theAya\theAya\src\main\java\theAya\powers" />
+      <recent name="C:\Users\Fuyoh\Desktop\theAya\theAya\src\main\resources\theAyaResources\images\cards" />
+      <recent name="C:\Users\Fuyoh\Desktop\theAya\theAya\src\main\resources\theAyaResources\images\powers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fuyoh\Desktop\爬塔Mod\theAya\theAya\src\main\resources\theAyaResources\images\cards" />
+      <recent name="C:\Users\Fuyoh\Desktop\theAya\theAya\src\main\resources\theAyaResources\images\powers" />
+      <recent name="C:\Users\Fuyoh\Desktop\theAya\theAya\src\main\resources\theAyaResources\images\relics\outline" />
+      <recent name="C:\Users\Fuyoh\Desktop\theAya\theAya\src\main\resources\theAyaResources\images\relics" />
+      <recent name="C:\Users\Fuyoh\Desktop\theAya\theAya\src\main\resources\theAyaResources\images\ui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="theAya.cards" />
+      <recent name="theAya.powers" />
+      <recent name="theAya.actions" />
+      <recent name="theAya.variables" />
+      <recent name="theAya.cards.colorless" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AyaModDebug" type="JarApplication">
+      <option name="JAR_PATH" value="E:/SteamLibrary/steamapps/workshop/content/646570/1605060445/ModTheSpire.jar" />
+      <option name="WORKING_DIRECTORY" value="E:\SteamLibrary\steamapps\common\SlayTheSpire" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="E:/SteamLibrary/steamapps/common/SlayTheSpire/jre" />
+      <method v="2">
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/theAya/pom.xml" goal="package" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-f644763e9732-af3fa2b8" />
+        <option value="jdk-1.8.0_402-liberica-1.8.0_402-4caba194b151-4fde626f" />
+        <option value="jdk-1.8.0_402-liberica-1.8.0_402-f644763e9732-5f1308c3" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="20c16970-aebe-4717-884f-12b507e669de" name="更改" comment="" />
+      <created>1707119812380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707119812380</updated>
+      <workItem from="1707119813535" duration="26001000" />
+      <workItem from="1707158956970" duration="460000" />
+      <workItem from="1707159476341" duration="1769000" />
+      <workItem from="1707201721725" duration="12738000" />
+      <workItem from="1707235236481" duration="3207000" />
+      <workItem from="1707238500322" duration="129000" />
+      <workItem from="1707306499431" duration="12582000" />
+      <workItem from="1707328738373" duration="6082000" />
+      <workItem from="1707373794072" duration="603000" />
+      <workItem from="1707393517202" duration="603000" />
+      <workItem from="1707403788785" duration="11991000" />
+      <workItem from="1707489863472" duration="195000" />
+      <workItem from="1707490068673" duration="920000" />
+      <workItem from="1707534809181" duration="9213000" />
+      <workItem from="1707566061761" duration="23638000" />
+      <workItem from="1707660658253" duration="14941000" />
+      <workItem from="1707720231621" duration="38874000" />
+      <workItem from="1707801965323" duration="18765000" />
+      <workItem from="1707835273981" duration="8941000" />
+      <workItem from="1707887319137" duration="10882000" />
+      <workItem from="1707903547998" duration="7536000" />
+      <workItem from="1707922678587" duration="6604000" />
+      <workItem from="1707929453220" duration="168000" />
+      <workItem from="1707997115038" duration="113000" />
+      <workItem from="1707997274538" duration="1000" />
+      <workItem from="1707997281625" duration="3000" />
+      <workItem from="1707997311459" duration="14744000" />
+      <workItem from="1708057732306" duration="3844000" />
+      <workItem from="1708061865924" duration="9176000" />
+      <workItem from="1708090334326" duration="8748000" />
+      <workItem from="1708141155983" duration="5427000" />
+      <workItem from="1708149399495" duration="7502000" />
+      <workItem from="1708175027112" duration="7582000" />
+      <workItem from="1708184146554" duration="16000" />
+      <workItem from="1708225249194" duration="18213000" />
+      <workItem from="1708246437161" duration="741000" />
+      <workItem from="1708265996994" duration="3740000" />
+      <workItem from="1708316397584" duration="28388000" />
+      <workItem from="1708358888025" duration="622000" />
+      <workItem from="1708431301748" duration="2441000" />
+      <workItem from="1708857481496" duration="715000" />
+      <workItem from="1708862020999" duration="689000" />
+      <workItem from="1708864013842" duration="701000" />
+      <workItem from="1708904046016" duration="1525000" />
+      <workItem from="1708913522580" duration="704000" />
+      <workItem from="1708916847178" duration="3217000" />
+      <workItem from="1708993077087" duration="1753000" />
+      <workItem from="1709048477706" duration="70000" />
+      <workItem from="1709184013611" duration="10000" />
+      <workItem from="1709184635174" duration="595000" />
+      <workItem from="1709548024573" duration="5743000" />
+      <workItem from="1709904728133" duration="382000" />
+      <workItem from="1710332196522" duration="22000" />
+      <workItem from="1711856708687" duration="18000" />
+      <workItem from="1712329523429" duration="60000" />
+      <workItem from="1712993540916" duration="194000" />
+      <workItem from="1713349578522" duration="44000" />
+      <workItem from="1714047078196" duration="562000" />
+      <workItem from="1715567025027" duration="5397000" />
+      <workItem from="1715575586804" duration="2446000" />
+      <workItem from="1715578943094" duration="10251000" />
+      <workItem from="1715596580210" duration="54000" />
+      <workItem from="1715608504502" duration="2261000" />
+      <workItem from="1716216202391" duration="62000" />
+      <workItem from="1716216313327" duration="714000" />
+      <workItem from="1716264628018" duration="638000" />
+      <workItem from="1716265602344" duration="18732000" />
+      <workItem from="1716295646197" duration="5652000" />
+      <workItem from="1716372029410" duration="19760000" />
+    </task>
+    <task id="LOCAL-00001" summary="最初的提交.">
+      <option name="closed" value="true" />
+      <created>1716389471832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716389471832</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="最初的提交." />
+    <option name="LAST_COMMIT_MESSAGE" value="最初的提交." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

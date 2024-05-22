@@ -141,7 +141,7 @@
   "theAya:Flow":
   {
     "NAME": "流动",
-    "DESCRIPTION": "抽取 !M! 张手牌,丢弃 !M! 张手牌, NL theaya:风力 10: 结束后再抽1张牌."
+    "DESCRIPTION": "抽取 !M! 张手牌,丢弃 !M! 张手牌. NL theaya:风力 10: 结束后再抽1张牌."
   },
   "theAya:Advertisement":
   {
@@ -192,7 +192,7 @@
   },
   "theAya:WindShield": {
     "NAME": "风之守护",
-    "DESCRIPTION": "本回合如果处于 theaya:抵御之风 ,获得20点防御. NL theaya:风力 10:下回合保留防御."
+    "DESCRIPTION": "本回合如果处于 theaya:抵御之风 ,获得20点防御. NL theaya:风力 10:保留防御到下回合."
   },
   "theAya:Heal": {
     "NAME": "愈合",

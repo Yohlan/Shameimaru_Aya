@@ -329,7 +329,8 @@ public class TheAya extends CustomPlayer {
     public static int getWindSpeed(){return TheAya.windSpeed;}
     public static void loseWindSpeed(int amount){
         if(TheAya.windSpeed >= amount) {
-            windSpeed -= windSpeed;
+            // 注意减掉的是 amount.
+            windSpeed -= amount;
         }
         else {
             windSpeed = 0;

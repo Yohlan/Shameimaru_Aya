@@ -87,6 +87,9 @@ public class AyaCameraAction
                         c2.exhaust = true;
                         c2.rawDescription += " NL " + cameraText2;
                     }
+                    if(c.upgraded){
+                        c2.upgrade();
+                    }
                     //改变c的费用
                     if (cost_zero)
                         c2.setCostForTurn(0);
@@ -120,6 +123,9 @@ public class AyaCameraAction
                         if (!c3.exhaust) {
                             c3.exhaust = true;
                             c3.rawDescription += " NL " + cameraText2;
+                        }
+                        if(c.upgraded){
+                            c3.upgrade();
                         }
                         //改变c的费用
                         if (cost_zero)
