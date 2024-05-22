@@ -1,0 +1,12 @@
+{
+  "modid": "AyaMod",
+  "name": "Aya（射命丸文）",
+  "author_list": ["纸灯（Yohlan）"],
+  "credits": "Basemod, ModTheSpire, #modding",
+  "description": "Adds Aya Shameimaru（射命丸文） from Touhou Project as a new playable character.",
+  "version": "0.0.1",
+  "sts_version": "01-23-2019",
+  "mts_version": "3.8.0",
+  "dependencies": ["basemod", "stslib"],
+  "update_json": ""
+}

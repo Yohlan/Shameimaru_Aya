@@ -1,0 +1,24 @@
+{
+  "theAya:AyaCamera": {
+    "NAME": "Aya's Camera",
+    "FLAVOR": "Got You!",
+    "DESCRIPTIONS": [
+      "Select #b1 card in your hand and generate #b1 #ySnapshot of it. NL #gUsable #gonce #gper #gcombat.",
+      "Got You!",
+      "take a snapshot of.",
+      "Exhaust.",
+      "Ethereal."
+    ]
+  },
+  "theAya:AyaNote": {
+    "NAME": "Aya's Notebook",
+    "FLAVOR": "A tengu notebook gathering innumerable photographs and handwritten notes.",
+    "DESCRIPTIONS": [
+      "Replaces [#f57330]Aya's[] [#f57330]Camera[]. Select #b1 card in your hand and generate #b1 #ySnapshot of it, make it cost #b0. NL #gUsable #gonce #gper #gcombat.",
+      "Got You!",
+      "take a snapshot of.",
+      "Exhaust.",
+      "Ethereal."
+    ]
+  }
+}

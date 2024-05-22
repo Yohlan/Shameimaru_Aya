@@ -1,0 +1,230 @@
+
+AyaAnimation.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AyaAttackFan (16)
+  rotate: false
+  xy: 819, 269
+  size: 176, 204
+  orig: 176, 204
+  offset: 0, 0
+  index: -1
+AyaAttackFan (1)
+  rotate: false
+  xy: 887, 541
+  size: 124, 212
+  orig: 124, 212
+  offset: 0, 0
+  index: -1
+AyaAttackFan (20)
+  rotate: false
+  xy: 125, 467
+  size: 128, 192
+  orig: 128, 192
+  offset: 0, 0
+  index: -1
+AyaAttackFan (4)
+  rotate: false
+  xy: 1, 531
+  size: 114, 212
+  orig: 114, 212
+  offset: 0, 0
+  index: -1
+AyaAttackFan (24)
+  rotate: false
+  xy: 255, 531
+  size: 126, 192
+  orig: 126, 192
+  offset: 0, 0
+  index: -1
+AyaAttackFan (7)
+  rotate: false
+  xy: 1, 285
+  size: 122, 212
+  orig: 122, 212
+  offset: 0, 0
+  index: -1
+AyaAttackFan (28)
+  rotate: false
+  xy: 117, 661
+  size: 120, 192
+  orig: 120, 192
+  offset: 0, 0
+  index: -1
+AyaAttackFan (10)
+  rotate: false
+  xy: 1, 1
+  size: 324, 282
+  orig: 324, 282
+  offset: 0, 0
+  index: -1
+AyaAttackFan (13)
+  rotate: false
+  xy: 327, 1
+  size: 292, 276
+  orig: 292, 276
+  offset: 0, 0
+  index: -1
+AyaIdle (12)
+  rotate: false
+  xy: 107, 1061
+  size: 104, 200
+  orig: 104, 200
+  offset: 0, 0
+  index: -1
+AyaIdle (20)
+  rotate: false
+  xy: 111, 855
+  size: 108, 204
+  orig: 108, 204
+  offset: 0, 0
+  index: -1
+AyaIdle (1)
+  rotate: false
+  xy: 453, 935
+  size: 100, 200
+  orig: 100, 200
+  offset: 0, 0
+  index: -1
+AyaIdle (4)
+  rotate: false
+  xy: 573, 749
+  size: 102, 198
+  orig: 102, 198
+  offset: 0, 0
+  index: -1
+AyaIdle (8)
+  rotate: false
+  xy: 1, 1161
+  size: 104, 198
+  orig: 104, 198
+  offset: 0, 0
+  index: -1
+AyaIdle (16)
+  rotate: false
+  xy: 1, 745
+  size: 108, 206
+  orig: 108, 206
+  offset: 0, 0
+  index: -1
+AyaIdle (28)
+  rotate: false
+  xy: 347, 921
+  size: 104, 204
+  orig: 104, 204
+  offset: 0, 0
+  index: -1
+AyaIdle (24)
+  rotate: false
+  xy: 221, 935
+  size: 104, 204
+  orig: 104, 204
+  offset: 0, 0
+  index: -1
+AyaSpellCard (21)
+  rotate: false
+  xy: 327, 279
+  size: 134, 250
+  orig: 134, 250
+  offset: 0, 0
+  index: -1
+AyaSpellCard (1)
+  rotate: false
+  xy: 719, 645
+  size: 102, 200
+  orig: 102, 200
+  offset: 0, 0
+  index: -1
+AyaSpellCard (11)
+  rotate: false
+  xy: 725, 475
+  size: 160, 168
+  orig: 160, 168
+  offset: 0, 0
+  index: -1
+AyaSpellCard (23)
+  rotate: false
+  xy: 597, 285
+  size: 126, 254
+  orig: 126, 254
+  offset: 0, 0
+  index: -1
+AyaSpellCard (9)
+  rotate: false
+  xy: 347, 727
+  size: 112, 192
+  orig: 112, 192
+  offset: 0, 0
+  index: -1
+AyaSpellCard (6)
+  rotate: false
+  xy: 461, 739
+  size: 110, 194
+  orig: 110, 194
+  offset: 0, 0
+  index: -1
+AyaSpellCard (19)
+  rotate: false
+  xy: 463, 279
+  size: 132, 250
+  orig: 132, 250
+  offset: 0, 0
+  index: -1
+AyaSpellCard (29)
+  rotate: false
+  xy: 1, 953
+  size: 104, 206
+  orig: 104, 206
+  offset: 0, 0
+  index: -1
+AyaSpellCard (15)
+  rotate: false
+  xy: 819, 1
+  size: 194, 266
+  orig: 194, 266
+  offset: 0, 0
+  index: -1
+AyaSpellCard (25)
+  rotate: false
+  xy: 239, 725
+  size: 106, 208
+  orig: 106, 208
+  offset: 0, 0
+  index: -1
+AyaSpellCard (30)
+  rotate: false
+  xy: 613, 541
+  size: 104, 206
+  orig: 104, 206
+  offset: 0, 0
+  index: -1
+AyaSpellCard (4)
+  rotate: false
+  xy: 499, 541
+  size: 112, 196
+  orig: 112, 196
+  offset: 0, 0
+  index: -1
+AyaSpellCard (17)
+  rotate: false
+  xy: 621, 1
+  size: 196, 282
+  orig: 196, 282
+  offset: 0, 0
+  index: -1
+AyaSpellCard (27)
+  rotate: false
+  xy: 383, 531
+  size: 114, 194
+  orig: 114, 194
+  offset: 0, 0
+  index: -1
+AyaSpellCard (13)
+  rotate: false
+  xy: 125, 285
+  size: 142, 180
+  orig: 142, 180
+  offset: 0, 0
+  index: -1

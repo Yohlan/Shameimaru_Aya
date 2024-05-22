@@ -1,0 +1,67 @@
+{
+  "theAya:FlightPower": {
+    "NAME": "飞行",
+    "DESCRIPTIONS": [
+      "减少 50% 接下来 #b",
+      " 次受到的伤害.",
+      " 次受到的伤害."
+    ]
+  },
+  "theAya:TenguSpiritPower": {
+    "NAME": "天狗之魂",
+    "DESCRIPTIONS": [
+      "每回合开始,获得 [E] 和 #b20 点 #y风速 ."
+    ]
+  },
+  "theAya:TempestWrathPower": {
+    "NAME": "暴风之怒",
+    "DESCRIPTIONS": [
+      "每回合开始, 如果处于 #y进攻之风 , 获得 #b",
+      " 点 #y力量 ."
+    ]
+  },
+  "theAya:GentleBreezePower": {
+    "NAME": "清风",
+    "DESCRIPTIONS": [
+      "每回合开始, 如果处于 #y治愈之风 , 获得 #b",
+      " 点 #y临时血量 ."
+    ]
+  },
+  "theAya:TremblePower": {
+    "NAME": "颤抖",
+    "DESCRIPTIONS": [
+      "每当有 #b3 点 #y颤抖 ,进入 #y晕眩 ."
+    ]
+  },
+  "theAya:AirplaneMode": {
+    "NAME": "飞行模式",
+    "DESCRIPTIONS": [
+      "每回合开始,获得 #b3 点 #y飞行 ."
+    ]
+  },
+  "theAya:TrucePower": {
+    "NAME": "暂时休战",
+    "DESCRIPTIONS": [
+      "下回合开始,获得 #b",
+      " 点 #y风速 ."
+    ]
+  },
+  "theAya:FieryComboPower": {
+    "NAME": "火热连击",
+    "DESCRIPTIONS": [
+      "出牌时如果处于 #y进攻之风 , 获得 #b1 点 #y力量 ."
+    ]
+  },
+  "theAya:ShiftingTenguPower": {
+    "NAME": "变换的鸦天狗",
+    "DESCRIPTIONS": [
+      "每次切换风种获得 #b10 点 #y风速."
+    ]
+  },
+  "theAya:ConvectionPower": {
+    "NAME": "对流",
+    "DESCRIPTIONS": [
+      "每获得 #b30 点 #y风速 ,对所有敌人造成 #b3 点伤害."
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "modid": "AyaMod",
+  "name": "${project.name}（射命丸文）",
+  "author_list": ["纸灯（Yohlan）"],
+  "credits": "Basemod, ModTheSpire, #modding",
+  "description": "${project.description}",
+  "version": "${project.version}",
+  "sts_version": "${SlayTheSpire.version}",
+  "mts_version": "${ModTheSpire.version}",
+  "dependencies": ["basemod", "stslib"],
+  "update_json": ""
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "PROPER_NAME": "风力",
+    "NAMES": [
+      "风力",
+      "wind",
+      "Wind"
+    ],
+    "DESCRIPTION": "当你有对应 #y风速 时,消耗它们并触发效果."
+  },
+  {
+    "PROPER_NAME": "风速",
+    "NAMES": [
+      "风速",
+      "风速值",
+      "Wind Speed",
+      "wind_speed",
+      "windspeed",
+      "Wind speed",
+      "Wind_Speed",
+      "Windspeed"
+    ],
+    "DESCRIPTION": "每当一张牌进入或离开手牌,提升 #b1 点.每回合开始,减少 #b15 点."
+  },
+  {
+    "PROPER_NAME": "飞行",
+    "NAMES": [
+        "飞行",
+        "Flight",
+        "flight"
+    ],
+    "DESCRIPTION": "减少 #b50% 来自敌人的攻击伤害."
+  },
+  {
+    "PROPER_NAME": "持续技",
+    "NAMES": [
+      "持续技",
+      "Continuous",
+      "continuous"
+    ],
+    "DESCRIPTION": "当你仍有对应 #y风速 时,消耗它们并持续触发效果."
+  },
+  {
+    "PROPER_NAME": "快照",
+    "NAMES": [
+      "快照",
+      "Snapshot",
+      "snapshot"
+    ],
+    "DESCRIPTION": "一张带有 #y虚无 和 #y消耗 的原卡复制品."
+  },
+  {
+    "PROPER_NAME": "空中技",
+    "NAMES": [
+      "空中技",
+      "Aerial",
+      "aerial"
+    ],
+    "DESCRIPTION": "你必须至少有 #b1 点 #y飞行 去使用这张牌."
+  },
+  {
+    "PROPER_NAME": "着陆",
+    "NAMES": [
+      "着陆",
+      "Landing",
+      "landing"
+    ],
+    "DESCRIPTION": "失去所有 #y飞行 ."
+  },
+  {
+    "PROPER_NAME": "颤抖",
+    "NAMES": [
+      "颤抖",
+      "Tremble",
+      "tremble"
+    ],
+    "DESCRIPTION": "每当有 #b3 点 #y颤抖 ,敌人进入 #y晕眩 ."
+  },
+  {
+    "PROPER_NAME": "进攻之风",
+    "NAMES": [
+      "进攻之风"
+    ],
+    "DESCRIPTION": "顺序: 翱翔之风,进攻之风,抵御之风,治愈之风."
+  },
+  {
+    "PROPER_NAME": "治愈之风",
+    "NAMES": [
+      "治愈之风"
+    ],
+    "DESCRIPTION": "顺序: 翱翔之风,进攻之风,抵御之风,治愈之风."
+  },
+  {
+    "PROPER_NAME": "翱翔之风",
+    "NAMES": [
+      "翱翔之风"
+    ],
+    "DESCRIPTION": "顺序: 翱翔之风,进攻之风,抵御之风,治愈之风."
+  },
+  {
+    "PROPER_NAME": "抵御之风",
+    "NAMES": [
+      "抵御之风"
+    ],
+    "DESCRIPTION": "顺序: 翱翔之风,进攻之风,抵御之风,治愈之风."
+  }
+]

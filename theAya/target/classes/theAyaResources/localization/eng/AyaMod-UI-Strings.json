@@ -1,0 +1,16 @@
+{
+  "theAya:WindSpeedDisplayUnit": {
+    "TEXT": [
+      "Wind Speed",
+        "When a card enters or leaves your hand, increase this by #b1. At the start of your turn, decrease this by #b15.",
+      "The Wind of Soaring",
+        "At the end of your turn, if you have at least #b30 #yWind #ySpeed, gain #b1 #yFlight and change this into #yThe #yWind #yof #yWarfare.",
+      "The Wind of Warfare",
+        "At the end of your turn, if you have at least #b30 #yWind #ySpeed, gain #b1 #yStrength and change this into #yThe #yWind #yof #yResistance.",
+      "The Wind of Resistance",
+        "At the end of your turn, if you have at least #b30 #yWind #ySpeed, gain #b15 #yBlock and change this into #yThe #yWind #yof #yHealing.",
+      "The Wind of Healing",
+        "At the end of your turn, if you have at least #b30 #yWind #ySpeed, gain #b5 #yTemporary #yHP and change this into #yThe #yWind #yof #ySoaring."
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "PROPER_NAME": "Wind Speed",
+    "NAMES": [
+      "Wind Speed",
+      "wind_speed",
+      "windspeed",
+      "Wind speed",
+      "Wind_Speed",
+      "Windspeed"
+    ],
+    "DESCRIPTION": "If the corresponding Wind Speed is reached, expending them will activate the effect."
+  },
+  {
+    "PROPER_NAME": "Flight",
+    "NAMES": [
+        "Flight",
+        "flight"
+    ],
+    "DESCRIPTION": "Reduce the damage you take from enemy attack by #b50%."
+  },
+  {
+    "PROPER_NAME": "Continuous",
+    "NAMES": [
+      "Continuous",
+      "continuous"
+    ],
+    "DESCRIPTION": "If your #yWind #ySpeed is still at the required level, you can continue to use this effect."
+  },
+  {
+    "PROPER_NAME": "Snapshot",
+    "NAMES": [
+      "Snapshot",
+      "snapshot"
+    ],
+    "DESCRIPTION": "A copy of the card with #yExhaust and #yEthereal."
+  },
+  {
+    "PROPER_NAME": "Aerial",
+    "NAMES": [
+      "Aerial",
+      "aerial"
+    ],
+    "DESCRIPTION": "You must have at least #b1 #yFlight to use this card."
+  },
+  {
+    "PROPER_NAME": "Landing",
+    "NAMES": [
+      "Landing",
+      "landing"
+    ],
+    "DESCRIPTION": "Lose all your #yFlight."
+  }
+]

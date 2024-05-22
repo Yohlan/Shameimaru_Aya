@@ -1,0 +1,30 @@
+{
+  "theAya:FlightPower": {
+    "NAME": "Flight",
+    "DESCRIPTIONS": [
+      "Reduce the damage of the next #b",
+      " attack you take by 50%.",
+      " attacks you take by 50%."
+    ]
+  },
+  "theAya:TenguSpiritPower": {
+    "NAME": "Tengu Spirit",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain [E] and #b20 #yWind #ySpeed."
+    ]
+  },
+  "theAya:TempestWrathPower": {
+    "NAME": "Tempest Wrath",
+    "DESCRIPTIONS": [
+      "At the start of your turn, if you are in #yThe #yWind #yof #yWarfare, gain #b",
+      " #yStrength."
+    ]
+  },
+  "theAya:GentleBreezePower": {
+    "NAME": "Gentle Breeze",
+    "DESCRIPTIONS": [
+      "At the start of your turn, if you are in #yThe #yWind #yof #yHealing, gain #b",
+      " #yTemporary #yHP."
+    ]
+  }
+}

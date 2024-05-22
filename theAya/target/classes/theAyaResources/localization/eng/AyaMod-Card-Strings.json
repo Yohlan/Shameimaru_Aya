@@ -1,0 +1,99 @@
+{
+  "theAya:Strike_Aya": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "theAya:Defend_Aya": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "theAya:SpeedUp": {
+    "NAME": "Speed Up",
+    "DESCRIPTION": "Choose 1 card from *Cloudstream *Sprint and *Wings *of *Ascend to add to your hand.",
+    "UPGRADE_DESCRIPTION": "Choose 1 card from *Cloudstream *Sprint+ and *Wings *of *Ascend+ to add to your hand."
+  },
+  "theAya:WingsOfAscend": {
+    "NAME": "Wings of Ascend",
+    "DESCRIPTION": "Gain 1 theaya:Flight. NL theaya:Wind !M!: Gain 1 additional theaya:Flight. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain 1 theaya:Flight. NL theaya:Wind !M!: Gain 1 additional theaya:Flight. NL Exhaust."
+  },
+  "theAya:CloudstreamSprint": {
+    "NAME": "Cloudstream Sprint",
+    "DESCRIPTION": "Draw 1 card. NL theaya:Wind !M!: Draw 1 additional card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Draw 1 card. NL theaya:Wind !M!: Draw 1 additional card. NL Exhaust."
+  },
+  "theAya:SpinStrike": {
+    "NAME": "Spin Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Whenever this card is drawn, its damage increases by !M! for this combat."
+  },
+  "theAya:MapleDance": {
+    "NAME": "Maple Dance",
+    "DESCRIPTION": "Gain !theAya:CardWindSpeed! theaya:Wind_Speed. NL Whenever this card is drawn, gain an additional !M! theaya:Wind_Speed for this combat."
+  },
+  "theAya:SwiftWindFan": {
+    "NAME": "Swift Wind Fan",
+    "DESCRIPTION": "Deal !D! damage. NL theaya:Wind !M!: One more attack."
+  },
+  "theAya:TenguSpirit": {
+    "NAME": "Tengu's Spirit",
+    "DESCRIPTION": "At the start of your turn, gain [E] NL and 20 theaya:Wind_Speed."},
+
+  "theAya:GaleAssault": {
+    "NAME": "Gale Assault",
+    "DESCRIPTION": "Deal !D! damage. NL theaya:Continuous, theaya:Wind !M!: gain 1 Strength, at the end of this turn, lose it."
+  },
+  "theAya:Landing": {
+    "NAME": "Landing",
+    "DESCRIPTION": "theaya:Aerial, theaya:Landing: Gain !M! Intangible. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "I must have at least 1 Flight to use this card."
+    ]
+  },
+  "theAya:WindborneGlide": {
+    "NAME": "Wind-borne Glide",
+    "DESCRIPTION": "Retain. NL Gain 1 theaya:Flight and 15 theaya:Wind_Speed. NL When Retained, lower its cost by 1 this combat.",
+    "UPGRADE_DESCRIPTION": "Retain. Innate. NL Gain 1 theaya:Flight and 15 theaya:Wind_Speed. NL When Retained, lower its cost by 1 this combat."
+  },
+  "theAya:Instamatic": {
+    "NAME": "Instamatic",
+    "DESCRIPTION": "Select 1 card in your hand and generate 1 theaya:Snapshot of it. NL Exhaust. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "Select 1 card in your hand and generate 1 theaya:Snapshot of it. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Select 1 card in your hand and generate 1 snapshot of it.",
+      "Got You!",
+      "take a snapshot of.",
+      "Exhaust.",
+      "Ethereal."
+    ]
+  },
+  "theAya:SpreadRumors": {
+    "NAME": "Spread Rumors",
+    "DESCRIPTION": "Apply !M! Weak.",
+    "UPGRADE_DESCRIPTION": "Apply !M! Weak. NL Apply !M! Vulnerable."
+  },
+  "theAya:TempestWrath": {
+    "NAME": "Tempest's Wrath",
+    "DESCRIPTION": "At the start of your turn, if you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Warfare[], gain 1 Strength."
+  },
+  "theAya:GentleBreeze": {
+    "NAME": "Gentle Breeze",
+    "DESCRIPTION": "At the start of your turn, if you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Healing[], gain 5 Temporary HP."
+  },
+  "theAya:NocturnalTempest": {
+    "NAME": "Nocturnal Tempest",
+    "DESCRIPTION": "Deal !D! damage. NL Apply 1 theaya:Tremble. NL theaya:Wind !M!: Apply 1 more theaya:Tremble."
+  },
+  "theAya:Windsweeper": {
+    "NAME": "Windsweeper",
+    "DESCRIPTION": "theaya:Wind !M!: NL Gain [E].",
+    "UPGRADE_DESCRIPTION": "theaya:Wind !M!: NL Gain [E] [E]."
+  },
+  "theAya:Leap": {
+    "NAME": "Leap",
+    "DESCRIPTION": "Exhaust 1 card, NL gain !M! theaya:Wind_Speed."
+  },
+  "theAya:WindBlade": {
+    "NAME": "Wind Blade",
+    "DESCRIPTION": "Deal !D! damage. NL theaya:Wind !M!: Deal 8 additional damage."
+  }
+}
