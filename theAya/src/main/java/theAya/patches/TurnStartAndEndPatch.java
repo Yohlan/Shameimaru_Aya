@@ -29,19 +29,19 @@ public class TurnStartAndEndPatch
                 switch (windType){
                     case SOAR:
                         if(TheAya.getWindSpeed() >= 30){
-                            AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new FlightPower((AbstractCreature)p,p,1), 1));
+                            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new FlightPower(p,p,2), 2));
                             TheAya.changeWindType(WindSpeedDisplayUnit.WindType.ATTACK);
                         }
                         break;
                     case HEAL:
                         if(TheAya.getWindSpeed() >= 30){
-                            AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new AddTemporaryHPAction((AbstractCreature)p, (AbstractCreature)p, 5));
+                            AbstractDungeon.actionManager.addToBottom(new AddTemporaryHPAction(p, p, 5));
                             TheAya.changeWindType(WindSpeedDisplayUnit.WindType.SOAR);
                         }
                         break;
                     case ATTACK:
                         if(TheAya.getWindSpeed() >= 30){
-                            AbstractDungeon.actionManager.addToBottom((AbstractGameAction) new ApplyPowerAction((AbstractCreature) p, (AbstractCreature) p, (AbstractPower) new StrengthPower((AbstractCreature) p, 1),1));
+                            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new StrengthPower(p, 1),1));
                             TheAya.changeWindType(WindSpeedDisplayUnit.WindType.DEFEND);
                         }
                         break;
@@ -60,6 +60,7 @@ public class TurnStartAndEndPatch
     {
         public static void Prefix(AbstractCreature __instance) {
                 if(__instance instanceof TheAya){
+                    TheAya.setCanGetWind();
                     int windSpeed = TheAya.getWindSpeed();
                     TheAya.loseWindSpeed(Math.min(windSpeed, 15));
             }

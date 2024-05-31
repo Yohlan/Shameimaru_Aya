@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ee47489c-9000-43c7-96bb-b27d25a7baed" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/actions/BlackFeathersAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/actions/HighSpeedPhotoAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/actions/MapleLeafWaltzAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/actions/ModifyCardDamageAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/actions/YatagarasuWhirlwindAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/BewitchingFan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/BirdGateWhirlwind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/BlackFeathers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/BouncingAya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/CommonCold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/DexterousTengu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/FanningAssault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/FeathersStrike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/FullSpeedImpact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/HealingStance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/HighSpeedPhoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/LockOnTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/MapleLeafWaltz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/SoaringStance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/SofteningClutchClaw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/StartlingTeleport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/SwiftRunning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/TenguCombo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/WindCut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/WindTurbine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/WindlessWeather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/YatagarasuWhirlwind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/powers/BlackFeatherPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/powers/BouncingAyaPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/powers/LockOnTargetPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/powers/PrinterPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/powers/TenguMarkPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/powers/WindTurbinePower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/tools/PowerObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/theAya/tools/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/BlackFeathers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/BlackFeathers_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/BouncingAya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/BouncingAya_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/CommonCold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/CommonCold_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/DexterousTengu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/DexterousTengu_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/FanningAssault.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/FanningAssault_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/FullSpeedImpact.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/FullSpeedImpact_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/HealingStance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/HealingStance_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/HighSpeedPhoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/HighSpeedPhoto_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/LockOnTarget.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/LockOnTarget_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/MapleLeafWaltz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/MapleLeafWaltz_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/Printer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/Printer_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/SoaringStance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/SoaringStance_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/SofteningClutchClaw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/SofteningClutchClaw_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/StartlingTeleport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/StartlingTeleport_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/SwiftRunning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/SwiftRunning_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/TenguCombo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/TenguCombo_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/WindCut.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/WindCut_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/WindTurbine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/WindTurbine_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/WindlessWeather.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/WindlessWeather_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/YatagarasuWhirlwind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/YatagarasuWhirlwind_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/testAtk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/testAtk_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/testPow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/testPow_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/testSkl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/cards/testSkl_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/black_feather32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/black_feather84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/bounce32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/bounce84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/lock_on32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/lock_on84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/news_up32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/news_up84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/print32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/print84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/raven32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/raven84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/sprint32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/sprint84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/turbine32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/turbine84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/unknown_maru32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/unknown_maru84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/updraft32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/images/powers/updraft84.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AyaModCards.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Basegame Character Card Stats.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/actions/AdvertisementAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/actions/AdvertisementAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/actions/AyaCameraAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/actions/AyaCameraAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/cards/Advertisement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/Advertisement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/cards/CatapultLaunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/CatapultLaunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/cards/Flow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/Flow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/cards/GentleBreeze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/GentleBreeze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/cards/TemporaryTruce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/TemporaryTruce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/cards/TurbulentLand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/cards/TurbulentLand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/characters/TheAya.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/characters/TheAya.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/patches/TurnStartAndEndPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/patches/TurnStartAndEndPatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/powers/TremblePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/powers/TremblePower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/theAya/powers/TrucePower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theAya/powers/TrucePower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theAyaResources/localization/zhs/AyaMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/localization/zhs/AyaMod-Card-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theAyaResources/localization/zhs/AyaMod-Keyword-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/localization/zhs/AyaMod-Keyword-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theAyaResources/localization/zhs/AyaMod-Power-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/localization/zhs/AyaMod-Power-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/theAyaResources/localization/zhs/AyaMod-UI-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/theAyaResources/localization/zhs/AyaMod-UI-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/AyaMod.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/AyaMod.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/actions/AdvertisementAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/actions/AdvertisementAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/actions/AyaCameraAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/actions/AyaCameraAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/cards/Advertisement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/cards/Advertisement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/cards/CatapultLaunch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/cards/CatapultLaunch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/cards/Flow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/cards/Flow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/cards/GentleBreeze.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/cards/GentleBreeze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/cards/TemporaryTruce.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/cards/TemporaryTruce.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/cards/TurbulentLand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/cards/TurbulentLand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/characters/TheAya$Enums.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/characters/TheAya$Enums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/characters/TheAya.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/characters/TheAya.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/patches/TurnStartAndEndPatch$StartTurn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/patches/TurnStartAndEndPatch$StartTurn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/powers/TremblePower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/powers/TremblePower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAya/powers/TrucePower.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAya/powers/TrucePower.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAyaResources/images/cards/Shifting Tengu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAyaResources/images/cards/Shifting Tengu_p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAyaResources/localization/zhs/AyaMod-Card-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAyaResources/localization/zhs/AyaMod-Card-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAyaResources/localization/zhs/AyaMod-Keyword-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAyaResources/localization/zhs/AyaMod-Keyword-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAyaResources/localization/zhs/AyaMod-Power-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAyaResources/localization/zhs/AyaMod-Power-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/theAyaResources/localization/zhs/AyaMod-UI-Strings.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/theAyaResources/localization/zhs/AyaMod-UI-Strings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="E:\_Dev\Java\Tools\apache-maven-3.9.6" />
+        <option name="localRepository" value="E:\_Repository\maven-repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="E:\_Dev\Java\Tools\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2gzHaCn07AkMyYdB0nUTuJYDuVj" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ee47489c-9000-43c7-96bb-b27d25a7baed" name="更改" comment="" />
+      <created>1716693546626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716693546626</updated>
+      <workItem from="1716693547689" duration="9000" />
+      <workItem from="1716891668438" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

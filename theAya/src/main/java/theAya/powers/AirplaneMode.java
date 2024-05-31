@@ -41,7 +41,7 @@ public class AirplaneMode extends AbstractPower implements CloneablePowerInterfa
 
     @Override
     public void atStartOfTurn() { // At the start of your turn
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new FlightPower(AbstractDungeon.player,AbstractDungeon.player,3*this.amount), 3*this.amount));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new FlightPower(AbstractDungeon.player,AbstractDungeon.player,4*this.amount), 4*this.amount));
     }
     @Override
     public void updateDescription() {

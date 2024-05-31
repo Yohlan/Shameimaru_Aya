@@ -1,8 +1,10 @@
 package theAya.cards;
 
+import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -50,10 +52,13 @@ public class GaleAssault extends AbstractDynamicCard {
                         AbstractGameAction.AttackEffect.BLUNT_HEAVY));
         int tem_strength = 0;
         int speed = TheAya.getWindSpeed();
+        int counter = 0;
         while(speed >= baseMagicNumber){
             TheAya.loseWindSpeed(baseMagicNumber);
             speed = TheAya.getWindSpeed();
             tem_strength++;
+            counter++;
+            if(counter >= 10) break;
         }
         if(tem_strength>0) {
             addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, tem_strength), tem_strength));
@@ -69,6 +74,15 @@ public class GaleAssault extends AbstractDynamicCard {
             upgradeDamage(UPGRADE_PLUS_DMG);
             upgradeMagicNumber(-5);
             initializeDescription();
+        }
+    }
+    private final Color dGlowColor = this.glowColor;
+    @Override
+    public void triggerOnGlowCheck() {
+        if (TheAya.getWindSpeed() < magicNumber) {
+            this.glowColor = dGlowColor;
+        } else {
+            this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         }
     }
 }

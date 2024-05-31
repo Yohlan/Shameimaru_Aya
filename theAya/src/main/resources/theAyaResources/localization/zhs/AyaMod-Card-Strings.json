@@ -9,13 +9,13 @@
   },
   "theAya:SpeedUp": {
     "NAME": "加速",
-    "DESCRIPTION": "从 *流云疾行 和 *腾空之翼 中选择1张加入你的手牌.",
-    "UPGRADE_DESCRIPTION": "从 *流云疾行+ 和 *腾空之翼+ 中选择1张加入你的手牌."
+    "DESCRIPTION": "从 *流云疾行 和 *腾空之翼 中选择1张 NL 加入你的手牌.",
+    "UPGRADE_DESCRIPTION": "从 *流云疾行+ 和 *腾空之翼+ 中选择1张 NL 加入你的手牌."
   },
   "theAya:WingsOfAscend": {
     "NAME": "腾空之翼",
-    "DESCRIPTION": "获得1点 theaya:飞行 . NL theaya:风力 !M! : 额外获得1点 theaya:飞行 . NL 消耗 .",
-    "UPGRADE_DESCRIPTION": "获得1点 theaya:飞行 . NL theaya:风力 !M! : 额外获得1点 theaya:飞行 . NL 消耗 ."
+    "DESCRIPTION": "获得1点 theaya:飞行 . NL theaya:风力 !M! : 额外获得2点 theaya:飞行 . NL 消耗 .",
+    "UPGRADE_DESCRIPTION": "获得1点 theaya:飞行 . NL theaya:风力 !M! : 额外获得2点 theaya:飞行 . NL 消耗 ."
   },
   "theAya:CloudstreamSprint": {
     "NAME": "流云疾行",
@@ -28,7 +28,7 @@
   },
   "theAya:MapleDance": {
     "NAME": "丹枫之扇舞",
-    "DESCRIPTION": "获得 !theAya:CardWindSpeed! 点 theaya:风速 . NL 这场战斗中每次被抽到,提升 !M! 点风速."
+    "DESCRIPTION": "获得 !theAya:CardWindSpeed! 点 theaya:风速 . 这场战斗中 NL 每次被抽到, NL 提升 !M! 点风速."
   },
   "theAya:SwiftWindFan": {
     "NAME": "疾风扇",
@@ -36,27 +36,27 @@
   },
   "theAya:TenguSpirit": {
     "NAME": "天狗之魂",
-    "DESCRIPTION": "每回合开始,获得 [E] NL 和20点 theaya:风速 ."},
-
+    "DESCRIPTION": "每回合开始, NL 获得 [E] 和50点 theaya:风速 ."
+  },
   "theAya:GaleAssault": {
     "NAME": "狂风突袭",
     "DESCRIPTION": "造成 !D! 点伤害. NL theaya:风力 !M! , theaya:持续技 : NL 获得1点 力量 ,在回合结束时失去它."
   },
   "theAya:Landing": {
     "NAME": "着陆",
-    "DESCRIPTION": "theaya:空中技 , theaya:着陆 : 获得 !M! 点 无实体 . NL 消耗 .",
+    "DESCRIPTION": "获得 !M! 点 无实体 . NL 消耗 . NL theaya:空中技 , theaya:着陆 .",
     "EXTENDED_DESCRIPTION": [
       "我必须至少有1点飞行去使用这张牌."
     ]
   },
   "theAya:WindborneGlide": {
     "NAME": "疾风翱翔",
-    "DESCRIPTION": "保留 . NL 获得1点 theaya:飞行 和15点 theaya:风速 .每当这张牌被保留时,将其在本场战斗的耗能减少1.",
-    "UPGRADE_DESCRIPTION": "保留 . 固有 . NL 获得1点 theaya:飞行 和15点 theaya:风速 .每当这张牌被保留时,将其在本场战斗的耗能减少1."
+    "DESCRIPTION": "保留 . NL 获得1点 theaya:飞行 NL 和15点 theaya:风速 . NL 每当被保留,耗能减1.",
+    "UPGRADE_DESCRIPTION": "保留 , 固有 . NL 获得1点 theaya:飞行 NL 和15点 theaya:风速 . NL 每当被保留,耗能减1."
   },
   "theAya:Instamatic": {
     "NAME": "袖珍相机",
-    "DESCRIPTION": "选择1张手牌,获得它的 theaya:快照 . NL 消耗 . NL 虚无 .",
+    "DESCRIPTION": "选择1张手牌, NL 获得它的 theaya:快照 . NL 消耗 . NL 虚无 .",
     "UPGRADE_DESCRIPTION": "选择1张手牌,获得它的 theaya:快照 . NL 消耗 .",
     "EXTENDED_DESCRIPTION": [
       "选择一张牌并生成1张它的快照",
@@ -81,12 +81,11 @@
   },
   "theAya:NocturnalTempest": {
     "NAME": "暗夜狂风",
-    "DESCRIPTION": "造成 !D! 点伤害. NL 造成1点 theaya:颤抖 . NL theaya:风力 !M! : 额外造成1点 theaya:颤抖 ."
+    "DESCRIPTION": "造成 !D! 点伤害. NL 造成1层 theaya:颤抖 . NL theaya:风力 !M! : 额外造成1层 theaya:颤抖 ."
   },
   "theAya:Windsweeper": {
     "NAME": "驱风",
-    "DESCRIPTION": "theaya:风力 !M! : NL 获得 [E] .",
-    "UPGRADE_DESCRIPTION": "theaya:风力 !M! : NL 获得 [E] [E] ."
+    "DESCRIPTION": "theaya:风力 !M! , theaya:持续技 : NL 抽1张牌. "
   },
   "theAya:Leap": {
     "NAME": "飞跃",
@@ -94,60 +93,50 @@
   },
   "theAya:WindBlade": {
     "NAME": "风刃",
-    "DESCRIPTION": "造成 !D! 点伤害. NL theaya:风力 !M! : 额外造成8点伤害."
+    "DESCRIPTION": "造成 !D! 点伤害. NL theaya:风力 !M! : 额外造成 !D! 点伤害."
   },
-  "theAya:Accelerator":
-  {
+  "theAya:Accelerator": {
     "NAME": "极速装置",
-    "DESCRIPTION": "翻倍当前拥有的 theaya:风速 . NL 消耗 ."
+    "DESCRIPTION": "翻倍当前的 theaya:风速 . NL 消耗 ."
   },
-  "theAya:TheClutchClaw":
-  {
+  "theAya:TheClutchClaw": {
     "NAME": "飞翔爪",
     "DESCRIPTION": "获得 !M! 点 theaya:飞行 . NL 消耗 ."
   },
-  "theAya:AirplaneMode":
-  {
+  "theAya:AirplaneMode": {
     "NAME": "飞行模式",
-    "DESCRIPTION": "每回合获得3点 theaya:飞行 ."
+    "DESCRIPTION": "每回合开始, NL 获得4点 theaya:飞行 ."
   },
-  "theAya:Dive":
-  {
+  "theAya:Dive": {
     "NAME": "俯冲",
-    "DESCRIPTION": "theaya:空中技 , theaya:着陆 : 每有1点 theaya:飞行 ,造成 !D! 点伤害一次.",
+    "DESCRIPTION": "每有1点 theaya:飞行 , NL 造成 !D! 点伤害1次. NL theaya:空中技 , theaya:着陆 .",
     "EXTENDED_DESCRIPTION": [
       "我必须至少有1点飞行去使用这张牌."
     ]
   },
-  "theAya:WindSurge":
-  {
+  "theAya:WindSurge": {
     "NAME": "风涌",
-    "DESCRIPTION": "theaya:空中技 , theaya:风力 !M! : 下回合获得 [E] [E] .",
+    "DESCRIPTION": "theaya:风力 !M! : 下回合获得 [E] [E] . NL theaya:空中技 .",
     "EXTENDED_DESCRIPTION": [
       "我必须至少有1点飞行去使用这张牌."
     ]
   },
-  "theAya:CrowShadow":
-  {
+  "theAya:CrowShadow": {
     "NAME": "乌鸦的暗影",
-    "DESCRIPTION": "获得10点 theaya:风速 和2点 theaya:飞行 .",
-    "UPGRADE_DESCRIPTION": "获得15点 theaya:风速 和3点 theaya:飞行 ."
+    "DESCRIPTION": "获得20点 theaya:风速 和3点 theaya:飞行 ."
   },
-  "theAya:ScytheWindVeil":
-  {
+  "theAya:ScytheWindVeil": {
     "NAME": "镰风面纱",
-    "DESCRIPTION": "获得 !B! 点格挡和 !B! 点 theaya:风速 ."
+    "DESCRIPTION": "获得 !B! 点格挡 NL 和 !B! 点 theaya:风速 ."
   },
-  "theAya:Flow":
-  {
+  "theAya:Flow": {
     "NAME": "流动",
-    "DESCRIPTION": "抽取 !M! 张手牌,丢弃 !M! 张手牌. NL theaya:风力 10: 结束后再抽1张牌."
+    "DESCRIPTION": "抽取 !M! 张手牌, NL 丢弃 !M! 张手牌. NL theaya:风力 10: 结束后再抽1张牌."
   },
-  "theAya:Advertisement":
-  {
+  "theAya:Advertisement": {
     "NAME": "广告",
-    "DESCRIPTION": "选择1张手牌,获得它的 theaya:快照 ,其费用加2,执行X次.",
-    "UPGRADE_DESCRIPTION": "选择1张手牌,获得它的 theaya:快照 ,其费用加2,执行X+1次.",
+    "DESCRIPTION": "选择1张手牌获得 theaya:快照 ,其费用加2, NL 执行X次. NL theaya:风力 100:快照不额外添加费用.",
+    "UPGRADE_DESCRIPTION": "选择1张手牌获得 theaya:快照 ,其费用加2, NL 执行X+1次. NL theaya:风力 100:快照不额外添加费用.",
     "EXTENDED_DESCRIPTION": [
       "选择1张牌并生成1张它的快照",
       "大新闻!",
@@ -156,19 +145,18 @@
       "虚无 ."
     ]
   },
-  "theAya:Industrialization":
-  {
+  "theAya:Industrialization": {
     "NAME": "工业化",
     "DESCRIPTION": "手牌中所有 theaya:快照 费用减X.",
     "UPGRADE_DESCRIPTION": "手牌中所有 theaya:快照 费用减X+1."
   },
   "theAya:TenguAura": {
-    "NAME":"鸦天狗的气息",
-    "DESCRIPTION": "造成2点 theaya:颤抖 ."
+    "NAME": "鸦天狗的气息",
+    "DESCRIPTION": "造成2层 theaya:颤抖 ."
   },
   "theAya:TenguDailyReport": {
-    "NAME":"天狗报当日截稿",
-    "DESCRIPTION": "选择1张手牌,获得两张它的 theaya:快照 ,其费用加1. NL theaya:风力 !M! :快照不添加额外费用.",
+    "NAME": "天狗报当日截稿",
+    "DESCRIPTION": "选择1张手牌, NL 获得两张它的 theaya:快照 , NL 其费用加1. NL theaya:风力 !M! :快照不添加额外费用.",
     "EXTENDED_DESCRIPTION": [
       "选择1张牌并生成1张它的快照",
       "大新闻!",
@@ -178,13 +166,13 @@
     ]
   },
   "theAya:CatapultLaunch": {
-    "NAME":"弹射起步",
-    "DESCRIPTION": "如果没有 theaya:飞行 ,获得3点飞行和20 theaya:风速 ,否则获得1飞行."
+    "NAME": "弹射起步",
+    "DESCRIPTION": "如果没有 theaya:飞行 ,获得5点飞行和30点 theaya:风速 ,否则获得1点飞行."
   },
   "theAya:TemporaryTruce": {
-    "NAME":"暂时休战",
-    "DESCRIPTION": "失去二分之一的 theaya:风速 ,下回合返还2倍失去的风速.",
-    "UPGRADE_DESCRIPTION": "失去二分之一的 theaya:风速 ,下回合返还3倍失去的风速."
+    "NAME": "暂时休战",
+    "DESCRIPTION": "失去二分之一的 theaya:风速 , NL 本回合不再获得风速, NL 下回合返还2倍失去的风速.",
+    "UPGRADE_DESCRIPTION": "失去二分之一的 theaya:风速 , NL 本回合不再获得风速, NL 下回合返还3倍失去的风速."
   },
   "theAya:FieryCombo": {
     "NAME": "火热连击",
@@ -192,25 +180,25 @@
   },
   "theAya:WindShield": {
     "NAME": "风之守护",
-    "DESCRIPTION": "本回合如果处于 theaya:抵御之风 ,获得20点防御. NL theaya:风力 10:保留防御到下回合."
+    "DESCRIPTION": "本回合 NL 如果处于 theaya:抵御之风 , NL 获得20点防御. NL theaya:风力 10:保留防御到下回合."
   },
   "theAya:Heal": {
     "NAME": "愈合",
     "DESCRIPTION": "本回合如果处于 theaya:治愈之风 ,将临时血量转变为血量. NL theaya:风力 10:先进入治愈之风."
   },
-  "theAya:WindGodGirl":{
+  "theAya:WindGodGirl": {
     "NAME": "风神少女",
-    "DESCRIPTION": "如果处于 theaya:翱翔之风 ,将 theaya:风速 翻 !M! 倍. NL theaya:风力 10:先进入翱翔之风."
+    "DESCRIPTION": "如果处于 theaya:翱翔之风 ,将 theaya:风速 翻 !M! 倍. NL theaya:风力 20:先进入翱翔之风."
   },
   "theAya:TurbulentLand": {
     "NAME": "动荡之地",
     "DESCRIPTION": "进入随机风种, NL theaya:风力 10: 获得20点 theaya:风速 .",
-    "UPGRADE_DESCRIPTION": "进入随机风种,获得20点 theaya:风速 ."
+    "UPGRADE_DESCRIPTION": "进入随机风种, NL 获得20点 theaya:风速 ."
   },
   "theAya:OffensiveStance": {
     "NAME": "进攻姿态",
-    "DESCRIPTION": "进入 theaya:进攻之风 ,获得3点临时力量.",
-    "UPGRADE_DESCRIPTION": "进入 theaya:进攻之风 ,获得3点临时力量,获得10点 theaya:风速 ."
+    "DESCRIPTION": "进入 theaya:进攻之风 , NL 获得3点临时力量.",
+    "UPGRADE_DESCRIPTION": "进入 theaya:进攻之风 , NL 获得3点临时力量, NL 获得10点 theaya:风速 ."
   },
   "theAya:ShiftingTengu": {
     "NAME": "变换的鸦天狗",
@@ -218,13 +206,186 @@
   },
   "theAya:DefensiveStance": {
     "NAME": "防御姿态",
-    "DESCRIPTION": "进入 theaya:抵御之风 ,获得10点格挡.",
-    "UPGRADE_DESCRIPTION": "进入 theaya:抵御之风 ,获得10点格挡,获得10点 theaya:风速 ."
+    "DESCRIPTION": "进入 theaya:抵御之风 , NL 获得10点格挡.",
+    "UPGRADE_DESCRIPTION": "进入 theaya:抵御之风 , NL 获得10点格挡, NL 获得10点 theaya:风速 ."
   },
   "theAya:Convection": {
     "NAME": "对流",
-    "DESCRIPTION": "每获得30点 theaya:风速 ,对所有敌人造成3点伤害."
+    "DESCRIPTION": "每获得30点 theaya:风速 ,对所有敌人造成3点伤害"
+  },
+  "theAya:WindCut": {
+    "NAME": "风切",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害. NL theaya:风力 15:再攻击1次. NL theaya:风力 30:再攻击2次."
+  },
+  "theAya:TenguCombo": {
+    "NAME": "鸦天狗之连击",
+    "DESCRIPTION": "造成 !M! 点伤害,获得5点 theaya:风速 ,你每次切换风种时,将这张牌从弃牌堆放回你的手牌."
+  },
+  "theAya:WindlessWeather": {
+    "NAME": "无风天气",
+    "DESCRIPTION": "失去所有 theaya:风速 和 theaya:飞行 ,获得 !M! 点 无实体 , 消耗 . NL theaya:风力 100: 不消耗."
+  },
+  "theAya:Printer": {
+    "NAME": "打印机",
+    "DESCRIPTION": "每回合开始, NL 选择1张手牌获得它的 theaya:快照 ,其费用加1."
+  },
+  "theAya:WindTurbine": {
+    "NAME": "风能发电机",
+    "DESCRIPTION": "每回合开始, NL 减少20 theaya:风速 ,获得 [E] ."
+  },
+  "theAya:CommonCold": {
+    "NAME": "感冒",
+    "DESCRIPTION": "造成 !D! 点伤害 NL 和3层 中毒 . NL theaya:风力 !M! : 多施加2层中毒 NL theaya:风力 !M! : NL 多施加1层 theaya:颤抖 ."
+  },
+  "theAya:StartlingTeleport": {
+    "NAME": "文文的瞬间移动",
+    "DESCRIPTION": "造成2层 theaya:颤抖 . NL theaya:风力 10:额外造成1层颤抖. NL theaya:空中技 , theaya:着陆 , 消耗 .",
+    "UPGRADE_DESCRIPTION": "造成3层 theaya:颤抖 . NL theaya:空中技 , theaya:着陆 , 消耗 .",
+    "EXTENDED_DESCRIPTION": [
+      "我必须至少有1点飞行去使用这张牌."
+    ]
+  },
+  "theAya:SwiftRunning": {
+    "NAME": "疾走风靡",
+    "DESCRIPTION": "获得50点 theaya:风速 . NL theaya:风力 100: 给所有敌人2层 theaya:颤抖 . NL theaya:空中技 .",
+    "UPGRADE_DESCRIPTION": "获得70点 theaya:风速 , NL theaya:风力 100: 给所有敌人2层 theaya:颤抖 . NL theaya:空中技 .",
+    "EXTENDED_DESCRIPTION": [
+      "我必须至少有1点飞行去使用这张牌."
+    ]
+  },
+  "theAya:HighSpeedPhoto": {
+    "NAME": "高速摄影",
+    "DESCRIPTION": "随机生成1张手牌的 theaya:快照 ."
+  },
+  "theAya:FullSpeedImpact": {
+    "NAME": "全速冲击",
+    "DESCRIPTION": "造成 !D! 点伤害. NL theaya:风力 !M! , theaya:持续技 : NL 再攻击一次 NL 且伤害乘1.05倍."
+  },
+  "theAya:HealingStance": {
+    "NAME": "愈合姿态",
+    "DESCRIPTION": "进入 theaya:治愈之风 , NL 获得5点临时血量.",
+    "UPGRADE_DESCRIPTION": "进入 theaya:治愈之风 , NL 获得5点临时血量, NL 获得10点 theaya:风速 ."
+  },
+  "theAya:SoaringStance": {
+    "NAME": "翱翔姿态",
+    "DESCRIPTION": "进入 theaya:翱翔之风 , NL 获得2点 theaya:飞行 .",
+    "UPGRADE_DESCRIPTION": "进入 theaya:翱翔之风 , NL 获得2点 theaya:飞行 , NL 获得10点 theaya:风速 ."
+  },
+  "theAya:LockOnTarget": {
+    "NAME": "锁定目标",
+    "DESCRIPTION": "每回合开始, NL 随机给1个敌人添加 NL 1层 theaya:天狗标 和1层 theaya:黑羽 ."
+  },
+  "theAya:DexterousTengu": {
+    "NAME": "鸦天狗的技艺",
+    "DESCRIPTION": "抽2张牌. NL theaya:风力 10: 再抽1张."
+  },
+  "theAya:BouncingAya": {
+    "NAME": "文文弹跳",
+    "DESCRIPTION": "每一次风速归零, NL 获得15点 theaya:风速 NL 和1点 theaya:飞行 , NL 每回合最多10次."
+  },
+  "theAya:SofteningClutchClaw": {
+    "NAME": "飞翔爪软化",
+    "DESCRIPTION": "造成 !D! 点伤害 NL 和 !M! 层 易伤 . NL theaya:空中技 .",
+    "EXTENDED_DESCRIPTION": [
+      "我必须至少有1点飞行去使用这张牌."
+    ]
+  },
+  "theAya:MapleLeafWaltz": {
+    "NAME": "枫叶飞舞",
+    "DESCRIPTION": "造成 !D! 点伤害并获得 NL !M! 点 theaya:风速 X次.",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害并获得 NL !M! 点 theaya:风速 X+1次."
+  },
+  "theAya:YatagarasuWhirlwind": {
+    "NAME": "八咫乌旋风",
+    "DESCRIPTION": "造成 !D! 点伤害, NL 如果杀死敌人, NL 本局游戏中伤害加5. NL theaya:空中技 .",
+    "EXTENDED_DESCRIPTION": [
+      "我必须至少有1点飞行去使用这张牌."
+    ]
+  },
+  "theAya:FanningAssault": {
+    "NAME": "急促扇击",
+    "DESCRIPTION": "造成 !D! 点伤害. NL 当前每有50 theaya:风速 , NL 伤害加1倍. NL theaya:风力 !M! : 再攻击1次."
+  },
+  "theAya:BlackFeathers": {
+    "NAME": "黑羽",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害 并施加1层 theaya:黑羽 ."
+  },
+  "theAya:FeatherStrike": {
+    "NAME": "羽击",
+    "DESCRIPTION": "造成 !D! 点伤害并施加 !M! 层 theaya:黑羽 ."
+  },
+  "theAya:BewitchingFan": {
+    "NAME": "飘妖扇",
+    "DESCRIPTION": "造成 !D! 点伤害并施加 !M! 层 theaya:天狗标 ."
+  },
+  "theAya:BirdGateWhirlwind": {
+    "NAME": "鸟居旋风",
+    "DESCRIPTION": "造成 !D! 点伤害3次. NL theaya:风力 !M! : 施加1层 theaya:黑羽 . NL theaya:空中技 .",
+    "EXTENDED_DESCRIPTION": [
+      "我必须至少有1点飞行去使用这张牌."
+    ]
+  },
+  "theAya:ViolentNewsHarvesting": {
+    "NAME": "暴力取材",
+    "DESCRIPTION": "造成6点伤害, NL theaya:风力 !M! : NL 若手牌中有攻击卡, NL 随机选中1张, NL 打出其 theaya:快照 ."
+  },
+  "theAya:TenguAmulet": {
+    "NAME": "天狗护符",
+    "DESCRIPTION": "不能被打出 . NL 被抽到后获得 NL 20点 theaya:风速 和2点 theaya:飞行 .",
+    "UPGRADE_DESCRIPTION": "不能被打出 . NL 被抽到后获得 NL 30点 theaya:风速 和3点 theaya:飞行 .",
+    "EXTENDED_DESCRIPTION": [
+      "这张牌不能被打出 ."
+    ]
+  },
+  "theAya:TenguGaleBullet": {
+    "NAME": "天狗烈风弹",
+    "DESCRIPTION": "造成 !D! 点伤害. NL 若处于 theaya:进攻之风 , NL 伤害乘3. NL theaya:风力 !M! : 先进入进攻之风."
+  },
+  "theAya:DanceOfWings": {
+    "NAME": "羽翼之舞",
+    "DESCRIPTION": "造成 !D! 点伤害. NL 每有1点 theaya:飞行 , NL 伤害加 !M! . NL theaya:空中技 .",
+    "EXTENDED_DESCRIPTION": [
+      "我必须至少有1点飞行去使用这张牌."
+    ]
+  },
+  "theAya:MapleGale": {
+    "NAME": "枫华疾风",
+    "DESCRIPTION": "造成 !D! 点伤害 3 次, NL 每次施加1层 theaya:天狗标 ."
+  },
+  "theAya:FanDanceStorm": {
+    "NAME": "扇舞风云",
+    "DESCRIPTION": "造成6点伤害, NL 获得10点 theaya:风速 NL 和1点 theaya:飞行 . NL theaya:空中技 .",
+    "UPGRADE_DESCRIPTION": "造成9点伤害, NL 获得15点 theaya:风速 NL 和2点 theaya:飞行 . NL theaya:空中技 .",
+    "EXTENDED_DESCRIPTION": [
+      "我必须至少有1点飞行去使用这张牌."
+    ]
+  },
+  "theAya:NewsBlitz": {
+    "NAME": "新闻突击",
+    "DESCRIPTION": "造成 !D! 点伤害. NL 随机获得1张手牌的 theaya:快照 . NL theaya:空中技 .",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害. NL 随机获得1张手牌的 theaya:快照 .",
+    "EXTENDED_DESCRIPTION": [
+      "我必须至少有1点飞行去使用这张牌."
+    ]
+  },
+  "theAya:CeaselessShutter": {
+    "NAME": "永不停息的快门",
+    "DESCRIPTION": "造成 !D! 点伤害. NL theaya:风力 !M! , theaya:持续技 : NL 若手牌中有攻击卡, NL 随机选中1张, NL 打出其 theaya:快照 ."
+  },
+  "theAya:NewspaperUpgrade": {
+    "NAME": "报社产业升级",
+    "DESCRIPTION": "产生的 theaya:快照 费用减1."
+  },
+  "theAya:UnknownMaru": {
+    "NAME": "？？丸",
+    "DESCRIPTION": "每回合开始, NL 给予随机1名敌人 theaya:颤抖 ."
+  },
+  "theAya:Updraft": {
+    "NAME": "上升气流",
+    "DESCRIPTION": "每回合结束, NL 当前 theaya:风速 每有30, NL 获得1点 theaya:飞行 ."
+  },
+  "theAya:FastestInGensokyo": {
+    "NAME": "幻想乡最速",
+    "DESCRIPTION": "每回合结束, NL 当前 theaya:飞行 每有1, NL 获得10点 theaya:风速 ."
   }
 }
-
-

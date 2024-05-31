@@ -1,24 +1,24 @@
 {
   "theAya:AyaCamera": {
-    "NAME": "Aya's Camera",
-    "FLAVOR": "Got You!",
+    "NAME": "文文的相機",
+    "FLAVOR": "大新聞!",
     "DESCRIPTIONS": [
-      "Select #b1 card in your hand and generate #b1 #ySnapshot of it. NL #gUsable #gonce #gper #gcombat.",
-      "Got You!",
-      "to take a snapshot of.",
-      "Exhaust.",
-      "Ethereal."
+      "選擇 #b1 張手牌並生成 #b1 張它的 #y快照. NL #g每場戰鬥可使用1次.",
+      "大新聞!",
+      "獲得快照.",
+      "消耗 .",
+      "虛無 ."
     ]
   },
   "theAya:AyaNote": {
-    "NAME": "Aya's Notebook",
-    "FLAVOR": "A tengu notebook gathering innumerable photographs and handwritten notes.",
+    "NAME": "文花帖",
+    "FLAVOR": "有許多照片和筆記的筆記本.",
     "DESCRIPTIONS": [
-      "Replaces [#f57330]Aya's[] [#f57330]Camera[]. Select #b1 card in your hand and generate #b1 #ySnapshot of it, make it cost #b0. NL #gUsable #gonce #gper #gcombat.",
-      "Got You!",
-      "to take a snapshot of.",
-      "Exhaust.",
-      "Ethereal."
+      "替換 [#f57330]文文的相機[] . 選擇 #b1 張手牌並生成 #b1 張它的 #y快照 .使其消耗為 #b0. NL #g每場戰鬥可使用1次.",
+      "大新聞!",
+      "獲得快照.",
+      "消耗 .",
+      "虛無 ."
     ]
   }
 }

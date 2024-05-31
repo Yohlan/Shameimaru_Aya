@@ -8,6 +8,7 @@ import com.badlogic.gdx.math.MathUtils;
 import com.esotericsoftware.spine.AnimationState;
 import com.evacipated.cardcrawl.modthespire.lib.SpireEnum;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -20,22 +21,21 @@ import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ScreenShake;
 import com.megacrit.cardcrawl.localization.CharacterStrings;
-import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.screens.CharSelectInfo;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import theAya.AyaMod;
 import theAya.cards.*;
+import theAya.powers.BouncingAyaPower;
 import theAya.powers.ConvectionPower;
+import theAya.powers.FlightPower;
 import theAya.powers.ShiftingTenguPower;
 import theAya.relics.AyaCamera;
 import theAya.relics.AyaNote;
 import theAya.ui.WindSpeedDisplayUnit;
 import theAya.vfx.FlexibleCalmParticleEffect;
-
 import java.util.ArrayList;
-
 import static theAya.AyaMod.*;
 import static theAya.characters.TheAya.Enums.COLOR_GRAY;
 
@@ -48,10 +48,7 @@ import static theAya.characters.TheAya.Enums.COLOR_GRAY;
 /// 初始牌组和初始遗物还有初始数值以及获取卡片和遗物等有关.
 
 
-
-
-
-public class TheAya extends CustomPlayer {
+public class TheAya extends CustomPlayer{
     //TODO:单例,可能产生Bug
     public static TheAya thisAya;
     //==================
@@ -82,6 +79,9 @@ public class TheAya extends CustomPlayer {
     public static float particleTimer = 0.00F;
     private static int windSpeed = 0;
     private static int windSpeedCounter = 0;
+    private static boolean canGetWind = true;
+    private static int bounceCounter = 0;
+
 
     // =============== /初始状态/ =================
 
@@ -92,6 +92,7 @@ public class TheAya extends CustomPlayer {
     private static final CharacterStrings characterStrings = CardCrawlGame.languagePack.getCharacterString(ID);
     private static final String[] NAMES = characterStrings.NAMES;
     private static final String[] TEXT = characterStrings.TEXT;
+
 
     // =============== /字符串/ =================
 
@@ -306,14 +307,23 @@ public class TheAya extends CustomPlayer {
         return TEXT[2];
     }
     public static void changeWindType(WindSpeedDisplayUnit.WindType windType){
-            if(AbstractDungeon.player.hasPower(ShiftingTenguPower.POWER_ID)){
+            AbstractPlayer p = AbstractDungeon.player;
+        if (p instanceof TheAya) {
+            if (p.hasPower(ShiftingTenguPower.POWER_ID)) {
                 TheAya.gainWindSpeed(AbstractDungeon.player.getPower(ShiftingTenguPower.POWER_ID).amount * 10);
+            }
+            for(AbstractCard card : p.discardPile.group){
+                if(card instanceof TenguCombo){
+                    ((TenguCombo) card).returnToHand();
+                }
             }
             TheAya.windType = windType;
             WindSpeedDisplayUnit.changeWindType(windType);
             FlexibleCalmParticleEffect.changeWindType(windType);
+        }
     }
     public static void gainWindSpeed(int amount){
+        if(!canGetWind) return;
         AbstractPlayer p = AbstractDungeon.player;
         TheAya.windSpeed += amount;
             if(p.hasPower(ConvectionPower.POWER_ID)){
@@ -326,18 +336,34 @@ public class TheAya extends CustomPlayer {
             }
 
     }
+    public static void setCanGetWind(){
+        canGetWind = true;
+    }
+    public static void setCantGetWind(){
+        canGetWind = false;
+    }
     public static int getWindSpeed(){return TheAya.windSpeed;}
     public static void loseWindSpeed(int amount){
-        if(TheAya.windSpeed >= amount) {
+        if(TheAya.windSpeed > amount) {
             // 注意减掉的是 amount.
             windSpeed -= amount;
         }
         else {
             windSpeed = 0;
+            if(AbstractDungeon.player.hasPower(BouncingAyaPower.POWER_ID)){
+                if(bounceCounter > 10) return;
+                bounceCounter++;
+                AbstractPlayer p = AbstractDungeon.player;
+                int powerAmount = p.getPower(BouncingAyaPower.POWER_ID).amount;
+                AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new FlightPower(p, p,powerAmount), powerAmount));
+                TheAya.gainWindSpeed(15* powerAmount );
+            }
         }
     }
     public static void refreshWindSpeed(){
+        // 重置状态
         TheAya.windSpeed = 0;
+        TheAya.bounceCounter = 0;
         TheAya.windSpeedCounter = 0;
     }
 

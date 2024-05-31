@@ -10,7 +10,7 @@
   "theAya:TenguSpiritPower": {
     "NAME": "天狗之魂",
     "DESCRIPTIONS": [
-      "每回合开始,获得 [E] 和 #b20 点 #y风速 ."
+      "每回合开始,获得 [E] 和 #b50 点 #y风速 ."
     ]
   },
   "theAya:TempestWrathPower": {
@@ -36,14 +36,14 @@
   "theAya:AirplaneMode": {
     "NAME": "飞行模式",
     "DESCRIPTIONS": [
-      "每回合开始,获得 #b3 点 #y飞行 ."
+      "每回合开始,获得 #b4 点 #y飞行 ."
     ]
   },
   "theAya:TrucePower": {
     "NAME": "暂时休战",
     "DESCRIPTIONS": [
       "下回合开始,获得 #b",
-      " 点 #y风速 ."
+      " 点 #y风速 ,本回合不再获得风速."
     ]
   },
   "theAya:FieryComboPower": {
@@ -62,6 +62,66 @@
     "NAME": "对流",
     "DESCRIPTIONS": [
       "每获得 #b30 点 #y风速 ,对所有敌人造成 #b3 点伤害."
+    ]
+  },
+  "theAya:PrinterPower": {
+    "NAME": "打印机",
+    "DESCRIPTIONS": [
+      "每回合开始选择 #b1 张手牌获得它的 #y快照 ,其费用加 #b1 ."
+    ]
+  },
+  "theAya:WindTurbinePower": {
+    "NAME": "风能发电机",
+    "DESCRIPTIONS": [
+      "每回合开始减少 #b20 风速,获得 [E] ."
+    ]
+  },
+  "theAya:LockOnTargetPower": {
+    "NAME": "锁定目标",
+    "DESCRIPTIONS": [
+      "每回合开始,随机给 #b1 个敌人添加 #b1 层 #y天狗标 和 #b1 层 #y黑羽 ."
+    ]
+  },
+  "theAya:TenguMarkPower": {
+    "NAME": "天狗标",
+    "DESCRIPTIONS": [
+      "每次受到伤害给玩家 #b2 点 #y风速 ,每回合结束减少1层."
+    ]
+  },
+  "theAya:BlackFeatherPower": {
+    "NAME": "黑羽",
+    "DESCRIPTIONS": [
+      "死亡后给玩家对应层数的 #y飞行 ."
+    ]
+  },
+  "theAya:BouncingAyaPower": {
+    "NAME": "文文弹跳",
+    "DESCRIPTIONS": [
+      "每一次风速归零,加 #b15 点 #y风速 和 #b1 点 #y飞行 ,每回合最多触发 #b10 次."
+    ]
+  },
+  "theAya:NewspaperUpgradePower": {
+    "NAME": "报社产业升级",
+    "DESCRIPTIONS": [
+      "生成的 #y快照 费用减 #b1 ."
+    ]
+  },
+  "theAya:UnknownMaruPower": {
+    "NAME": "？？丸",
+    "DESCRIPTIONS": [
+      "每回合开始给予随机 #b1 名敌人 #b1 层 #y颤抖 ."
+    ]
+  },
+  "theAya:UpdraftPower": {
+    "NAME": "上升气流",
+    "DESCRIPTIONS": [
+      "每回合结束,当前 #y风速 每有 #b30 , 获得 #b1 点 #y飞行 ."
+    ]
+  },
+  "theAya:FastestInGensokyoPower": {
+    "NAME": "幻想乡最速",
+    "DESCRIPTIONS": [
+      "每回合结束,当前 #y飞行 每有 #b1 ,获得 #b10 点 #y风速 ."
     ]
   }
 }

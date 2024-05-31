@@ -72,4 +72,5 @@ public class Dive extends AbstractDynamicCard {
             initializeDescription();
         }
     }
+
 }

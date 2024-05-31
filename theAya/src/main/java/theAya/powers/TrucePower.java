@@ -57,6 +57,7 @@ public class TrucePower extends AbstractPower implements CloneablePowerInterface
     }
 
     public void atStartOfTurn() {
+        TheAya.setCanGetWind();
         TheAya.gainWindSpeed(counter);
         counter = 0;
         AbstractDungeon.actionManager.addToBottom(
@@ -65,6 +66,7 @@ public class TrucePower extends AbstractPower implements CloneablePowerInterface
     }
     @Override
     public void onRemove() {
+        TheAya.setCanGetWind();
         counter = 0;
     }
     @Override

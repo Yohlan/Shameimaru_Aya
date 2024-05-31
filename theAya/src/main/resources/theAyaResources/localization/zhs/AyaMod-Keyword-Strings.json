@@ -6,7 +6,7 @@
       "wind",
       "Wind"
     ],
-    "DESCRIPTION": "当你有对应 #y风速 时,消耗它们并触发效果."
+    "DESCRIPTION": "当你有对应 #y风速 时,消耗它们并触发效果,有多个时按顺序触发."
   },
   {
     "PROPER_NAME": "风速",
@@ -20,7 +20,7 @@
       "Wind_Speed",
       "Windspeed"
     ],
-    "DESCRIPTION": "每当一张牌进入或离开手牌,提升 #b1 点.每回合开始,减少 #b15 点."
+    "DESCRIPTION": "每当一张牌进入手牌,弃牌堆或被消耗,提升 #b1 点.每回合开始,减少 #b15 点."
   },
   {
     "PROPER_NAME": "飞行",
@@ -38,7 +38,7 @@
       "Continuous",
       "continuous"
     ],
-    "DESCRIPTION": "当你仍有对应 #y风速 时,消耗它们并持续触发效果."
+    "DESCRIPTION": "当你仍有对应 #y风速 时,消耗它们并持续触发效果(最多 #b10 次)."
   },
   {
     "PROPER_NAME": "快照",
@@ -103,5 +103,19 @@
       "抵御之风"
     ],
     "DESCRIPTION": "顺序: 翱翔之风,进攻之风,抵御之风,治愈之风."
+  },
+  {
+    "PROPER_NAME": "天狗标",
+    "NAMES": [
+      "天狗标"
+    ],
+    "DESCRIPTION": "每次受到伤害给玩家 #b2 点 #y风速 ."
+  },
+  {
+    "PROPER_NAME": "黑羽",
+    "NAMES": [
+      "黑羽"
+    ],
+    "DESCRIPTION": "死亡后给玩家对应层数的 #y飞行 ."
   }
 ]

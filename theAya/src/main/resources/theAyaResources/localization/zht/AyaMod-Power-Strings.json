@@ -1,30 +1,127 @@
 {
   "theAya:FlightPower": {
-    "NAME": "Flight",
+    "NAME": "飛行",
     "DESCRIPTIONS": [
-      "Reduce the damage of the next #b",
-      " attack you take by 50%.",
-      " attacks you take by 50%."
+      "減少 50% 接下來 #b",
+      " 次受到的傷害.",
+      " 次受到的傷害."
     ]
   },
   "theAya:TenguSpiritPower": {
-    "NAME": "Tengu Spirit",
+    "NAME": "天狗之魂",
     "DESCRIPTIONS": [
-      "At the start of your turn, gain [E] and #b20 #yWind #ySpeed."
+      "每回合開始,獲得 [E] 和 #b50 點 #y風速 ."
     ]
   },
   "theAya:TempestWrathPower": {
-    "NAME": "Tempest Wrath",
+    "NAME": "暴風之怒",
     "DESCRIPTIONS": [
-      "At the start of your turn, if you are in #yThe #yWind #yof #yWarfare, gain #b",
-      " #yStrength."
+      "每回合開始, 如果處於 #y進攻之風 , 獲得 #b",
+      " 點 #y力量 ."
     ]
   },
   "theAya:GentleBreezePower": {
-    "NAME": "Gentle Breeze",
+    "NAME": "清風",
     "DESCRIPTIONS": [
-      "At the start of your turn, if you are in #yThe #yWind #yof #yHealing, gain #b",
-      " #yTemporary #yHP."
+      "每回合開始, 如果處於 #y治愈之風 , 獲得 #b",
+      " 點 #y臨時血量 ."
+    ]
+  },
+  "theAya:TremblePower": {
+    "NAME": "顫抖",
+    "DESCRIPTIONS": [
+      "每當有 #b3 點 #y顫抖 ,進入 #y暈眩 ."
+    ]
+  },
+  "theAya:AirplaneMode": {
+    "NAME": "飛行模式",
+    "DESCRIPTIONS": [
+      "每回合開始,獲得 #b4 點 #y飛行 ."
+    ]
+  },
+  "theAya:TrucePower": {
+    "NAME": "暫時休戰",
+    "DESCRIPTIONS": [
+      "下回合開始,獲得 #b",
+      " 點 #y風速 ,本回合不再獲得風速."
+    ]
+  },
+  "theAya:FieryComboPower": {
+    "NAME": "火熱連擊",
+    "DESCRIPTIONS": [
+      "出牌時如果處於 #y進攻之風 , 獲得 #b1 點 #y力量 ."
+    ]
+  },
+  "theAya:ShiftingTenguPower": {
+    "NAME": "變換的鴉天狗",
+    "DESCRIPTIONS": [
+      "每次切換風種獲得 #b10 點 #y風速."
+    ]
+  },
+  "theAya:ConvectionPower": {
+    "NAME": "對流",
+    "DESCRIPTIONS": [
+      "每獲得 #b30 點 #y風速 ,對所有敵人造成 #b3 點傷害."
+    ]
+  },
+  "theAya:PrinterPower": {
+    "NAME": "打印機",
+    "DESCRIPTIONS": [
+      "每回合開始選擇 #b1 張手牌獲得它的 #y快照 ,其費用加 #b1 ."
+    ]
+  },
+  "theAya:WindTurbinePower": {
+    "NAME": "風能發電機",
+    "DESCRIPTIONS": [
+      "每回合開始減少 #b20 風速,獲得 [E] ."
+    ]
+  },
+  "theAya:LockOnTargetPower": {
+    "NAME": "鎖定目標",
+    "DESCRIPTIONS": [
+      "每回合開始,隨機給 #b1 個敵人添加 #b1 層 #y天狗標 和 #b1 層 #y黑羽 ."
+    ]
+  },
+  "theAya:TenguMarkPower": {
+    "NAME": "天狗標",
+    "DESCRIPTIONS": [
+      "每次受到傷害給玩家 #b1 點 #y風速 ."
+    ]
+  },
+  "theAya:BlackFeatherPower": {
+    "NAME": "黑羽",
+    "DESCRIPTIONS": [
+      "死亡後給玩家對應層數的 #y飛行 ."
+    ]
+  },
+  "theAya:BouncingAyaPower": {
+    "NAME": "文文彈跳",
+    "DESCRIPTIONS": [
+      "每一次風速歸零,加 #b15 點 #y風速 和 #b1 點 #y飛行 ,每回合最多觸發 #b10 次."
+    ]
+  },
+  "theAya:NewspaperUpgradePower": {
+    "NAME": "報社產業升級",
+    "DESCRIPTIONS": [
+      "生成的 #y快照 費用減 #b1 ."
+    ]
+  },
+  "theAya:UnknownMaruPower": {
+    "NAME": "？？丸",
+    "DESCRIPTIONS": [
+      "每回合開始給予隨機 #b1 名敵人 #b1 層 #y顫抖 ."
+    ]
+  },
+  "theAya:UpdraftPower": {
+    "NAME": "上升氣流",
+    "DESCRIPTIONS": [
+      "每回合結束,當前 #y風速 每有 #b30 , 獲得 #b1 點 #y飛行 ."
+    ]
+  },
+  "theAya:FastestInGensokyoPower": {
+    "NAME": "幻想鄉最速",
+    "DESCRIPTIONS": [
+      "每回合結束,當前 #y飛行 每有 #b1 ,獲得 #b10 點 #y風速 ."
     ]
   }
 }

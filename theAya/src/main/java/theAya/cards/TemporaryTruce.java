@@ -45,6 +45,7 @@ public class TemporaryTruce extends AbstractDynamicCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         int count = TheAya.getWindSpeed()/2;
+        TheAya.setCantGetWind();
         addToBot(new ApplyPowerAction(p,p,new TrucePower(p,p,1,baseMagicNumber*count)));
         TheAya.loseWindSpeed(count);
     }

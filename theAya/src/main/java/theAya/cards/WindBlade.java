@@ -1,7 +1,9 @@
 package theAya.cards;
 
+import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -26,8 +28,8 @@ public class WindBlade extends AbstractDynamicCard {
     public static final CardColor COLOR = TheAya.Enums.COLOR_GRAY;
 
     private static final int COST = 2;
-    private static final int DAMAGE = 8;
-    private static final int UPGRADE_PLUS_DMG = 2;
+    private static final int DAMAGE = 10;
+    private static final int UPGRADE_PLUS_DMG = 3;
     private static final int BASE_MAGIC_NUMBER = 10;
 
     // /STAT DECLARATION/
@@ -46,7 +48,7 @@ public class WindBlade extends AbstractDynamicCard {
 
         if(TheAya.getWindSpeed()>=baseMagicNumber){
             TheAya.loseWindSpeed(baseMagicNumber);
-            amount += 8;
+            amount += baseDamage;
         }
         AbstractDungeon.actionManager.addToBottom(
                 new DamageAction(m, new DamageInfo(p, amount, damageTypeForTurn),
@@ -62,6 +64,15 @@ public class WindBlade extends AbstractDynamicCard {
             upgradeDamage(UPGRADE_PLUS_DMG);
             upgradeMagicNumber(-5);
             initializeDescription();
+        }
+    }
+    private final Color dGlowColor = this.glowColor;
+    @Override
+    public void triggerOnGlowCheck() {
+        if (TheAya.getWindSpeed() < magicNumber) {
+            this.glowColor = dGlowColor;
+        } else {
+            this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         }
     }
 }

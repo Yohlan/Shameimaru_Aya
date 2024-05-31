@@ -1,7 +1,18 @@
 [
   {
-    "PROPER_NAME": "Wind Speed",
+    "PROPER_NAME": "風力",
     "NAMES": [
+      "風力",
+      "wind",
+      "Wind"
+    ],
+    "DESCRIPTION": "當你有對應 #y風速 時,消耗它們並觸發效果,有多個時按順序觸發."
+  },
+  {
+    "PROPER_NAME": "風速",
+    "NAMES": [
+      "風速",
+      "風速值",
       "Wind Speed",
       "wind_speed",
       "windspeed",
@@ -9,46 +20,102 @@
       "Wind_Speed",
       "Windspeed"
     ],
-    "DESCRIPTION": "If the corresponding Wind Speed is reached, expending them will activate the effect."
+    "DESCRIPTION": "每當一張牌進入手牌,棄牌堆或被消耗,提升 #b1 點.每回合開始,減少 #b15 點."
   },
   {
-    "PROPER_NAME": "Flight",
+    "PROPER_NAME": "飛行",
     "NAMES": [
-        "Flight",
-        "flight"
+      "飛行",
+      "Flight",
+      "flight"
     ],
-    "DESCRIPTION": "Reduce the damage you take from enemy attack by #b50%."
+    "DESCRIPTION": "減少 #b50% 來自敵人的攻擊傷害."
   },
   {
-    "PROPER_NAME": "Continuous",
+    "PROPER_NAME": "持續技",
     "NAMES": [
+      "持續技",
       "Continuous",
       "continuous"
     ],
-    "DESCRIPTION": "If your #yWind #ySpeed is still at the required level, you can continue to use this effect."
+    "DESCRIPTION": "當你仍有對應 #y風速 時,消耗它們並持續觸發效果(最多 #b10 次)."
   },
   {
-    "PROPER_NAME": "Snapshot",
+    "PROPER_NAME": "快照",
     "NAMES": [
+      "快照",
       "Snapshot",
       "snapshot"
     ],
-    "DESCRIPTION": "A copy of the card with #yExhaust and #yEthereal."
+    "DESCRIPTION": "一張帶有 #y虛無 和 #y消耗 的原卡復製品."
   },
   {
-    "PROPER_NAME": "Aerial",
+    "PROPER_NAME": "空中技",
     "NAMES": [
+      "空中技",
       "Aerial",
       "aerial"
     ],
-    "DESCRIPTION": "You must have at least #b1 #yFlight to use this card."
+    "DESCRIPTION": "你必須至少有 #b1 點 #y飛行 去使用這張牌."
   },
   {
-    "PROPER_NAME": "Landing",
+    "PROPER_NAME": "著陸",
     "NAMES": [
+      "著陸",
       "Landing",
       "landing"
     ],
-    "DESCRIPTION": "Lose all your #yFlight."
+    "DESCRIPTION": "失去所有 #y飛行 ."
+  },
+  {
+    "PROPER_NAME": "顫抖",
+    "NAMES": [
+      "顫抖",
+      "Tremble",
+      "tremble"
+    ],
+    "DESCRIPTION": "每當有 #b3 點 #y顫抖 ,敵人進入 #y暈眩 ."
+  },
+  {
+    "PROPER_NAME": "進攻之風",
+    "NAMES": [
+      "進攻之風"
+    ],
+    "DESCRIPTION": "順序: 翺翔之風,進攻之風,抵禦之風,治愈之風."
+  },
+  {
+    "PROPER_NAME": "治愈之風",
+    "NAMES": [
+      "治愈之風"
+    ],
+    "DESCRIPTION": "順序: 翺翔之風,進攻之風,抵禦之風,治愈之風."
+  },
+  {
+    "PROPER_NAME": "翺翔之風",
+    "NAMES": [
+      "翺翔之風"
+    ],
+    "DESCRIPTION": "順序: 翺翔之風,進攻之風,抵禦之風,治愈之風."
+  },
+  {
+    "PROPER_NAME": "抵禦之風",
+    "NAMES": [
+      "抵禦之風"
+    ],
+    "DESCRIPTION": "順序: 翺翔之風,進攻之風,抵禦之風,治愈之風."
+  },
+  {
+    "PROPER_NAME": "天狗標",
+    "NAMES": [
+      "天狗標"
+    ],
+    "DESCRIPTION": "每次受到傷害給玩家 #b2 點 #y風速 ."
+  },
+  {
+    "PROPER_NAME": "黑羽",
+    "NAMES": [
+      "黑羽"
+    ],
+    "DESCRIPTION": "死亡後給玩家對應層數的 #y飛行 ."
   }
 ]

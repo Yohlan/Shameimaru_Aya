@@ -1,7 +1,9 @@
 package theAya.cards;
 
 import basemod.helpers.BaseModCardTags;
+import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
@@ -57,4 +59,6 @@ public class AirplaneMode extends AbstractDynamicCard {
             initializeDescription();
         }
     }
+
+
 }

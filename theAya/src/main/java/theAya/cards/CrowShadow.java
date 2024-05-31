@@ -17,9 +17,6 @@ public class CrowShadow extends AbstractDynamicCard {
     public static final String ID = AyaMod.makeID(CrowShadow.class.getSimpleName());
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = cardStrings.NAME;
-
-    public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
-
     public static final String IMG = makeCardPath("CrowShadow.png");
 
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
@@ -32,21 +29,20 @@ public class CrowShadow extends AbstractDynamicCard {
 
     public CrowShadow() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
-        this.baseMagicNumber = 2;
+        this.baseMagicNumber = 4;
     }
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
         TheAya.gainWindSpeed(this.magicNumber *5);
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new FlightPower(p, p,this.magicNumber), this.magicNumber));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new FlightPower(p, p,3), 3));
     }
 
     @Override
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeMagicNumber(1);
-            rawDescription = UPGRADE_DESCRIPTION;
+            upgradeBaseCost(1);
             initializeDescription();
         }
     }

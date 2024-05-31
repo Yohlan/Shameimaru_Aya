@@ -3,8 +3,8 @@ package theAya.powers;
 import basemod.interfaces.CloneablePowerInterface;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.actions.utility.TextAboveCreatureAction;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -27,9 +27,16 @@ public class TremblePower extends AbstractPower implements CloneablePowerInterfa
     public TremblePower(final AbstractCreature owner, final AbstractCreature source, final int  amount) {
         name = NAME;
         ID = POWER_ID;
-
+        int temp_amount = amount;
+        if(amount >= 3 && owner instanceof AbstractMonster) {
+            addToBot(new TextAboveCreatureAction(owner, TextAboveCreatureAction.TextType.STUNNED));
+            AbstractMonster m = (AbstractMonster) owner;
+            m.setMove((byte) 4, AbstractMonster.Intent.STUN);
+            m.createIntent();
+            temp_amount = 0;
+        }
         this.owner = owner;
-        this.amount = amount;
+        this.amount = temp_amount;
         this.source = source;
 
         type = PowerType.DEBUFF;
@@ -42,13 +49,14 @@ public class TremblePower extends AbstractPower implements CloneablePowerInterfa
     }
     @Override
     public void stackPower(int stackAmount) {
+        int counter = this.amount + stackAmount;
         this.amount += stackAmount;
-        if(this.amount >= 3 && owner instanceof AbstractMonster) {
+        if(counter >= 3 && owner instanceof AbstractMonster) {
             addToBot(new TextAboveCreatureAction(owner, TextAboveCreatureAction.TextType.STUNNED));
             AbstractMonster m = (AbstractMonster) owner;
             m.setMove((byte) 4, AbstractMonster.Intent.STUN);
             m.createIntent();
-            addToBot((AbstractGameAction)new ReducePowerAction(this.owner, this.owner, this.ID, this.amount));
+            this.addToBot(new RemoveSpecificPowerAction(this.owner, this.owner, this));
         }
     }
     @Override

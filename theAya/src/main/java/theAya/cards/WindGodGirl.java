@@ -1,6 +1,8 @@
 package theAya.cards;
+import com.badlogic.gdx.graphics.Color;
 import com.evacipated.cardcrawl.mod.stslib.patches.core.AbstractCreature.TempHPField;
 import com.megacrit.cardcrawl.actions.common.HealAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
@@ -41,8 +43,8 @@ public class WindGodGirl extends AbstractDynamicCard {
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if(TheAya.getWindSpeed()>=10){
-            TheAya.loseWindSpeed(10);
+        if(TheAya.getWindSpeed()>=20){
+            TheAya.loseWindSpeed(20);
             TheAya.changeWindType(WindSpeedDisplayUnit.WindType.SOAR);
         }
         if(TheAya.windType == WindSpeedDisplayUnit.WindType.SOAR){
@@ -57,8 +59,17 @@ public class WindGodGirl extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            upgradeMagicNumber(1);
+            upgradeBaseCost(0);
             initializeDescription();
+        }
+    }
+    private final Color dGlowColor = this.glowColor;
+    @Override
+    public void triggerOnGlowCheck() {
+        if (TheAya.getWindSpeed() < 10) {
+            this.glowColor = dGlowColor;
+        } else {
+            this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         }
     }
 }

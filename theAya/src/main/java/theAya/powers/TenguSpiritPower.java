@@ -3,6 +3,8 @@ package theAya.powers;
 import basemod.interfaces.CloneablePowerInterface;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -41,7 +43,8 @@ public class TenguSpiritPower extends AbstractPower implements CloneablePowerInt
 
     @Override
     public void atStartOfTurn() { // At the start of your turn
-        TheAya.gainWindSpeed(amount * 20);
+        TheAya.gainWindSpeed(amount * 50);
+        AbstractPlayer p = AbstractDungeon.player;
     }
     @Override
     public void onEnergyRecharge() {

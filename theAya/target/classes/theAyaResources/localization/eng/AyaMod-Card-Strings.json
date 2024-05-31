@@ -14,8 +14,8 @@
   },
   "theAya:WingsOfAscend": {
     "NAME": "Wings of Ascend",
-    "DESCRIPTION": "Gain 1 theaya:Flight. NL theaya:Wind !M!: Gain 1 additional theaya:Flight. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain 1 theaya:Flight. NL theaya:Wind !M!: Gain 1 additional theaya:Flight. NL Exhaust."
+    "DESCRIPTION": "Gain 1 theaya:Flight. NL theaya:Wind !M!: Gain 2 additional theaya:Flight. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain 1 theaya:Flight. NL theaya:Wind !M!: Gain 2 additional theaya:Flight. NL Exhaust."
   },
   "theAya:CloudstreamSprint": {
     "NAME": "Cloudstream Sprint",
@@ -35,16 +35,16 @@
     "DESCRIPTION": "Deal !D! damage. NL theaya:Wind !M!: One more attack."
   },
   "theAya:TenguSpirit": {
-    "NAME": "Tengu's Spirit",
-    "DESCRIPTION": "At the start of your turn, gain [E] NL and 20 theaya:Wind_Speed."},
-
+    "NAME": "Tengu Spirit",
+    "DESCRIPTION": "At the start of your turn, gain [E] NL and 50 theaya:Wind_Speed."
+  },
   "theAya:GaleAssault": {
     "NAME": "Gale Assault",
-    "DESCRIPTION": "Deal !D! damage. NL theaya:Continuous, theaya:Wind !M!: gain 1 Strength, at the end of this turn, lose it."
+    "DESCRIPTION": "Deal !D! damage. NL theaya:Wind !M! , theaya:Continuous: gain 1 Strength, at the end of this turn, lose it."
   },
   "theAya:Landing": {
     "NAME": "Landing",
-    "DESCRIPTION": "theaya:Aerial, theaya:Landing: Gain !M! Intangible. NL Exhaust.",
+    "DESCRIPTION": "Gain !M! Intangible. NL Exhaust. NL theaya:Aerial , theaya:Landing.",
     "EXTENDED_DESCRIPTION": [
       "I must have at least 1 Flight to use this card."
     ]
@@ -73,11 +73,11 @@
   },
   "theAya:TempestWrath": {
     "NAME": "Tempest's Wrath",
-    "DESCRIPTION": "At the start of your turn, if you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Warfare[], gain 1 Strength."
+    "DESCRIPTION": "At the start of your turn, if you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Warfare[] , gain 1 Strength."
   },
   "theAya:GentleBreeze": {
     "NAME": "Gentle Breeze",
-    "DESCRIPTION": "At the start of your turn, if you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Healing[], gain 5 Temporary HP."
+    "DESCRIPTION": "At the start of your turn, if you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Healing[] , gain 5 Temporary HP."
   },
   "theAya:NocturnalTempest": {
     "NAME": "Nocturnal Tempest",
@@ -85,8 +85,7 @@
   },
   "theAya:Windsweeper": {
     "NAME": "Windsweeper",
-    "DESCRIPTION": "theaya:Wind !M!: NL Gain [E].",
-    "UPGRADE_DESCRIPTION": "theaya:Wind !M!: NL Gain [E] [E]."
+    "DESCRIPTION": "theaya:Wind !M!, theaya:Continuous: Draw 1 card."
   },
   "theAya:Leap": {
     "NAME": "Leap",
@@ -94,6 +93,280 @@
   },
   "theAya:WindBlade": {
     "NAME": "Wind Blade",
-    "DESCRIPTION": "Deal !D! damage. NL theaya:Wind !M!: Deal 8 additional damage."
+    "DESCRIPTION": "Deal !D! damage. NL theaya:Wind !M!: Deal !D! additional damage."
+  },
+  "theAya:Accelerator": {
+    "NAME": "Accelerator",
+    "DESCRIPTION": "Double your current theaya:Wind_Speed. NL Exhaust."
+  },
+  "theAya:TheClutchClaw": {
+    "NAME": "The Clutch Claw",
+    "DESCRIPTION": "Gain !M! theaya:Flight. NL Exhaust."
+  },
+  "theAya:AirplaneMode": {
+    "NAME": "Airplane Mode",
+    "DESCRIPTION": "At the start of your turn, gain 4 theaya:Flight."
+  },
+  "theAya:Dive": {
+    "NAME": "Dive",
+    "DESCRIPTION": "For each point of theaya:Flight you have, deal !D! damage. NL theaya:Aerial , theaya:Landing.",
+    "EXTENDED_DESCRIPTION": [
+      "I must have at least 1 Flight to use this card."
+    ]
+  },
+  "theAya:WindSurge": {
+    "NAME": "Wind Surge",
+    "DESCRIPTION": "theaya:Wind !M!: Gain [E] [E] next turn. NL theaya:Aerial.",
+    "EXTENDED_DESCRIPTION": [
+      "I must have at least 1 Flight to use this card."
+    ]
+  },
+  "theAya:CrowShadow": {
+    "NAME": "Crow Shadow",
+    "DESCRIPTION": "Gain 20 theaya:Wind_Speed and 3 theaya:Flight."
+  },
+  "theAya:ScytheWindVeil": {
+    "NAME": "Scythe Wind Veil",
+    "DESCRIPTION": "Gain !B! Block NL and !B! theaya:Wind_Speed."
+  },
+  "theAya:Flow": {
+    "NAME": "Flow",
+    "DESCRIPTION": "Draw !M! cards, NL discard !M! cards. NL theaya:Wind 10: Draw 1 more card after this."
+  },
+  "theAya:Advertisement": {
+    "NAME": "Advertisement",
+    "DESCRIPTION": "Select 1 card in your hand and generate 1 theaya:Snapshot of it, its cost is increased by 2, NL repeat X times. NL theaya:Wind 100: Snapshot does not have additional cost.",
+    "UPGRADE_DESCRIPTION": "Select 1 card in your hand and generate 1 theaya:Snapshot of it, its cost is increased by 2, NL repeat X+1 times. NL theaya:Wind 100: Snapshot does not have additional cost.",
+    "EXTENDED_DESCRIPTION": [
+      "Select 1 card in your hand and generate 1 snapshot of it.",
+      "Got You!",
+      "take a snapshot of.",
+      "Exhaust.",
+      "Ethereal."
+    ]
+  },
+  "theAya:Industrialization": {
+    "NAME": "Industrialization",
+    "DESCRIPTION": "Reduce the cost of all theaya:Snapshot cards in your hand by X.",
+    "UPGRADE_DESCRIPTION": "Reduce the cost of all theaya:Snapshot cards in your hand by X+1."
+  },
+  "theAya:TenguAura": {
+    "NAME": "Tengu Aura",
+    "DESCRIPTION": "Apply 2 theaya:Tremble."
+  },
+  "theAya:TenguDailyReport": {
+    "NAME": "Tengu Daily Report",
+    "DESCRIPTION": "Select 1 card in your hand and generate 2 theaya:Snapshot of it, its cost is increased by 1. NL theaya:Wind !M!: Snapshot does not have additional cost.",
+    "EXTENDED_DESCRIPTION": [
+      "Select 1 card in your hand and generate 1 snapshot of it.",
+      "Got You!",
+      "take a snapshot of.",
+      "Exhaust.",
+      "Ethereal."
+    ]
+  },
+  "theAya:CatapultLaunch": {
+    "NAME": "Catapult Launch",
+    "DESCRIPTION": "If you do not have theaya:Flight, gain 5 Flight and 30 theaya:Wind_Speed, otherwise gain 1 Flight."
+  },
+  "theAya:TemporaryTruce": {
+    "NAME": "Temporary Truce",
+    "DESCRIPTION": "Lose half of your theaya:Wind_Speed, NL you will not gain theaya:Wind_Speed this turn, NL next turn, gain back 2 times the lost theaya:Wind_Speed.",
+    "UPGRADE_DESCRIPTION": "Lose half of your theaya:Wind_Speed, NL you will not gain theaya:Wind_Speed this turn, NL next turn, gain back 3 times the lost theaya:Wind_Speed."
+  },
+  "theAya:FieryCombo": {
+    "NAME": "Fiery Combo",
+    "DESCRIPTION": "If you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Warfare[] this turn, gain 1 Strength for each card played. NL theaya:Wind 20: Enter The Wind of Warfare first."
+  },
+  "theAya:WindShield": {
+    "NAME": "Wind Shield",
+    "DESCRIPTION": "If you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Resistance[] this turn, gain 20 Block. NL theaya:Wind 10: Retain the Block to next turn."
+  },
+  "theAya:Heal": {
+    "NAME": "Heal",
+    "DESCRIPTION": "If you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Healing[] this turn, convert Temporary HP to HP. NL theaya:Wind 10: Enter The Wind of Healing first."
+  },
+  "theAya:WindGodGirl": {
+    "NAME": "Wind God Girl",
+    "DESCRIPTION": "If you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Soaring[] this turn, multiply theaya:Wind_Speed by !M!. NL theaya:Wind 20: Enter The Wind of Soaring first."
+  },
+  "theAya:TurbulentLand": {
+    "NAME": "Turbulent Land",
+    "DESCRIPTION": "Enter a random Wind, NL theaya:Wind 10: Gain 20 theaya:Wind_Speed.",
+    "UPGRADE_DESCRIPTION": "Enter a random Wind, NL Gain 20 theaya:Wind_Speed."
+  },
+  "theAya:OffensiveStance": {
+    "NAME": "Offensive Stance",
+    "DESCRIPTION": "Enter [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Warfare[], NL gain 3 Temporary Strength.",
+    "UPGRADE_DESCRIPTION": "Enter [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Warfare[], NL gain 3 Temporary Strength, NL gain 10 theaya:Wind_Speed."
+  },
+  "theAya:ShiftingTengu": {
+    "NAME": "Shifting Tengu",
+    "DESCRIPTION": "Gain 10 theaya:Wind_Speed each time you switch Wind."
+  },
+  "theAya:DefensiveStance": {
+    "NAME": "Defensive Stance",
+    "DESCRIPTION": "Enter [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Resistance[], NL gain 10 Block.",
+    "UPGRADE_DESCRIPTION": "Enter [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Resistance[], NL gain 10 Block, NL gain 10 theaya:Wind_Speed."
+  },
+  "theAya:Convection": {
+    "NAME": "Convection",
+    "DESCRIPTION": "Deal 3 damage to all enemies each time you gain 30 theaya:Wind_Speed."
+  },
+  "theAya:WindCut": {
+    "NAME": "Wind Cut",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL theaya:Wind 15: Attack 1 more time. NL theaya:Wind 30: Attack 2 more times."
+  },
+  "theAya:TenguCombo": {
+    "NAME": "Tengu Combo",
+    "DESCRIPTION": "Deal !M! damage, gain 5 theaya:Wind_Speed, whenever you switch Wind, put this card back to your hand.",
+    "EXTENDED_DESCRIPTION": [
+      "I must have at least 1 Flight to use this card."
+    ]
+  },
+  "theAya:WindlessWeather": {
+    "NAME": "Windless Weather",
+    "DESCRIPTION": "Lose all theaya:Wind_Speed and theaya:Flight, gain !M! Intangible, Exhaust. NL theaya:Wind 100: Do not Exhaust."
+  },
+  "theAya:Printer": {
+    "NAME": "Printer",
+    "DESCRIPTION": "At the start of your turn, select 1 card in your hand and generate 1 theaya:Snapshot of it, its cost is increased by 1."
+  },
+  "theAya:WindTurbine": {
+    "NAME": "Wind Turbine",
+    "DESCRIPTION": "At the start of your turn, reduce 20 theaya:Wind_Speed, gain [E]."
+  },
+  "theAya:CommonCold": {
+    "NAME": "Common Cold",
+    "DESCRIPTION": "Deal !D! damage, apply 3 Poison. NL theaya:Wind !M!: Apply 2 more Poison NL theaya:Wind !M!: Apply 1 more theaya:Tremble."
+  },
+  "theAya:StartlingTeleport": {
+    "NAME": "Startling Teleport",
+    "DESCRIPTION": "Apply 2 theaya:Tremble. NL theaya:Wind 10: Apply 1 more theaya:Tremble."
+  },
+  "theAya:SwiftRunning": {
+    "NAME": "Swift Running",
+    "DESCRIPTION": "Gain 50 theaya:Wind_Speed. NL theaya:Wind 100: Apply 2 theaya:Tremble to all enemies. NL theaya:Aerial.",
+    "UPGRADE_DESCRIPTION": "Gain 70 theaya:Wind_Speed, NL theaya:Wind 100: Apply 2 theaya:Tremble to all enemies. NL theaya:Aerial.",
+    "EXTENDED_DESCRIPTION": [
+      "I must have at least 1 Flight to use this card."
+    ]
+  },
+  "theAya:HighSpeedPhoto": {
+    "NAME": "High Speed Photo",
+    "DESCRIPTION": "Generate 1 theaya:Snapshot of a random card in your hand."
+  },
+  "theAya:FullSpeedImpact": {
+    "NAME": "Full Speed Impact",
+    "DESCRIPTION": "Deal !D! damage. NL theaya:Wind !M! , theaya:Continuous: NL Attack again NL and deal 1.05x damage."
+  },
+  "theAya:HealingStance": {
+    "NAME": "Healing Stance",
+    "DESCRIPTION": "Enter [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Healing[], NL gain 5 Temporary HP.",
+    "UPGRADE_DESCRIPTION": "Enter [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Healing[], NL gain 5 Temporary HP, NL gain 10 theaya:Wind_Speed."
+  },
+  "theAya:SoaringStance": {
+    "NAME": "Soaring Stance",
+    "DESCRIPTION": "Enter [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Soaring[], NL gain 2 theaya:Flight.",
+    "UPGRADE_DESCRIPTION": "Enter [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Soaring[], NL gain 2 theaya:Flight, NL gain 10 theaya:Wind_Speed."
+  },
+  "theAya:LockOnTarget": {
+    "NAME": "Lock On Target",
+    "DESCRIPTION": "At the start of your turn, NL apply 1 theaya:Tengu_Mark and 1 theaya:Black_Feather to a random enemy."
+  },
+  "theAya:DexterousTengu": {
+    "NAME": "Dexterous Tengu",
+    "DESCRIPTION": "Draw 2 cards. NL theaya:Wind 10: Draw 1 more card."
+  },
+  "theAya:BouncingAya": {
+    "NAME": "Bouncing Aya",
+    "DESCRIPTION": "Each time theaya:Wind_Speed is reduced to 0, NL gain 15 theaya:Wind_Speed and 1 theaya:Flight, NL up to 10 times per turn."
+  },
+  "theAya:SofteningClutchClaw": {
+    "NAME": "Softening Clutch Claw",
+    "DESCRIPTION": "Deal !D! damage NL and apply !M! Weakness. NL theaya:Aerial."
+  },
+  "theAya:MapleLeafWaltz": {
+    "NAME": "Maple Leaf Waltz",
+    "DESCRIPTION": "Deal !D! damage and gain !M! theaya:Wind_Speed X times.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage and gain !M! theaya:Wind_Speed X+1 times."
+  },
+  "theAya:YatagarasuWhirlwind": {
+    "NAME": "Yatagarasu Whirlwind",
+    "DESCRIPTION": "Deal !D! damage, NL if the enemy is killed, NL deal 5 more damage for the rest of this combat. NL theaya:Aerial."
+  },
+  "theAya:FanningAssault": {
+    "NAME": "Fanning Assault",
+    "DESCRIPTION": "Deal !D! damage. NL For every 50 theaya:Wind_Speed, NL deal 1x more damage. NL theaya:Wind !M! : NL Attack again."
+  },
+  "theAya:BlackFeathers": {
+    "NAME": "Black Feathers",
+    "DESCRIPTION": "Deal !D! damage to all enemies and apply 1 theaya:Black_Feather."
+  },
+  "theAya:FeatherStrike": {
+    "NAME": "Feather Strike",
+    "DESCRIPTION": "Deal !D! damage and apply !M! theaya:Black_Feather."
+  },
+  "theAya:BewitchingFan": {
+    "NAME": "Bewitching Fan",
+    "DESCRIPTION": "Deal !D! damage and apply !M! theaya:Tengu_Mark."
+  },
+  "theAya:BirdGateWhirlwind": {
+    "NAME": "Bird Gate Whirlwind",
+    "DESCRIPTION": "Deal !D! damage 3 times. NL theaya:Wind !M! : Apply 1 theaya:Black_Feather. NL theaya:Aerial."
+  },
+  "theAya:ViolentNewsHarvesting": {
+    "NAME": "Violent News Harvesting",
+    "DESCRIPTION": "Deal 6 damage, NL theaya:Wind !M! : NL If there is an attack card in your hand, NL randomly select 1, NL and play its theaya:Snapshot."
+  },
+  "theAya:TenguAmulet": {
+    "NAME": "Tengu Amulet",
+    "DESCRIPTION": "Unplayable. NL When drawn, gain 20 theaya:Wind_Speed and 2 theaya:Flight.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL When drawn, gain 30 theaya:Wind_Speed and 3 theaya:Flight.",
+    "EXTENDED_DESCRIPTION": [
+      "This card cannot be played."
+    ]
+  },
+  "theAya:TenguGaleBullet": {
+    "NAME": "Tengu Gale Bullet",
+    "DESCRIPTION": "Deal !D! damage. NL If in theaya:Offensive_Stance, NL deal 3x damage. NL theaya:Wind !M! : NL Enter Offensive_Stance first."
+  },
+  "theAya:DanceOfWings": {
+    "NAME": "Dance Of Wings",
+    "DESCRIPTION": "Deal !D! damage. NL For every theaya:Flight you have, NL deal !M! more damage. NL theaya:Aerial."
+  },
+  "theAya:MapleGale": {
+    "NAME": "Maple Gale",
+    "DESCRIPTION": "Deal !D! damage 3 times. NL Apply 1 theaya:Tengu_Mark each time."
+  },
+  "theAya:FanDanceStorm": {
+    "NAME": "Fan Dance Storm",
+    "DESCRIPTION": "Deal 6 damage, NL gain 10 theaya:Wind_Speed and 1 theaya:Flight. NL theaya:Aerial.",
+    "UPGRADE_DESCRIPTION": "Deal 9 damage, NL gain 15 theaya:Wind_Speed and 2 theaya:Flight. NL theaya:Aerial."
+  },
+  "theAya:NewsBlitz": {
+    "NAME": "News Blitz",
+    "DESCRIPTION": "Deal !D! damage. NL Randomly gain 1 theaya:Snapshot of a card in your hand. NL theaya:Aerial.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Randomly gain 1 theaya:Snapshot of a card in your hand."
+  },
+  "theAya:CeaselessShutter": {
+    "NAME": "Ceaseless Shutter",
+    "DESCRIPTION": "Deal !D! damage. NL theaya:Wind !M! , theaya:Continuous: NL If there is an attack card in your hand, NL randomly select 1, NL and play its theaya:Snapshot."
+  },
+  "theAya:NewspaperUpgrade": {
+    "NAME": "Newspaper Upgrade",
+    "DESCRIPTION": "Reduce the cost of theaya:Snapshot cards by 1."
+  },
+  "theAya:UnknownMaru": {
+    "NAME": "?? Maru",
+    "DESCRIPTION": "At the start of your turn, apply 1 theaya:Tremble to a random enemy."
+  },
+  "theAya:Updraft": {
+    "NAME": "Updraft",
+    "DESCRIPTION": "At the end of your turn, NL gain 1 theaya:Flight for every 30 theaya:Wind_Speed."
+  },
+  "theAya:FastestInGensokyo": {
+    "NAME": "Fastest In Gensokyo",
+    "DESCRIPTION": "At the end of your turn, NL gain 10 theaya:Wind_Speed for every 1 theaya:Flight."
   }
 }

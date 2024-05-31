@@ -1,5 +1,6 @@
 package theAya.cards;
 
+import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.MakeTempCardInHandAction;
@@ -53,7 +54,7 @@ public class WingsOfAscend extends AbstractDynamicCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         if(TheAya.getWindSpeed() >= baseMagicNumber){
             TheAya.loseWindSpeed(baseMagicNumber);
-            AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new FlightPower((AbstractCreature)p,p,2), 2));
+            AbstractDungeon.actionManager.addToBottom((AbstractGameAction)new ApplyPowerAction((AbstractCreature)p, (AbstractCreature)p, (AbstractPower)new FlightPower((AbstractCreature)p,p,3), 3));
             this.exhaust = true;
             return;
         }
@@ -74,6 +75,15 @@ public class WingsOfAscend extends AbstractDynamicCard {
             upgradeMagicNumber(-5);
             rawDescription = UPGRADE_DESCRIPTION;
             initializeDescription();
+        }
+    }
+    private final Color dGlowColor = this.glowColor;
+    @Override
+    public void triggerOnGlowCheck() {
+        if (TheAya.getWindSpeed() < magicNumber) {
+            this.glowColor = dGlowColor;
+        } else {
+            this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         }
     }
 }

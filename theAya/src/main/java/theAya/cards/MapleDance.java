@@ -34,7 +34,7 @@ public class MapleDance extends AbstractDynamicCard {
     public MapleDance() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
         this.baseCardWindSpeed = CARD_WIND_SPEED;
-        this.baseMagicNumber = 4;
+        this.baseMagicNumber = 8;
         this.magicNumber = this.baseMagicNumber;
     }
 

@@ -1,4 +1,6 @@
 package theAya.cards;
+import com.badlogic.gdx.graphics.Color;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
@@ -21,7 +23,7 @@ public class TurbulentLand extends AbstractDynamicCard {
 
 
 
-    private static final CardRarity RARITY = CardRarity.UNCOMMON;
+    private static final CardRarity RARITY = CardRarity.COMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = cardStrings.NAME;
@@ -61,6 +63,15 @@ public class TurbulentLand extends AbstractDynamicCard {
             upgradeName();
             rawDescription = UPGRADE_DESCRIPTION;
             initializeDescription();
+        }
+    }
+    private final Color dGlowColor = this.glowColor;
+    @Override
+    public void triggerOnGlowCheck() {
+        if (upgraded || TheAya.getWindSpeed() < 10) {
+            this.glowColor = dGlowColor;
+        } else {
+            this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         }
     }
 }

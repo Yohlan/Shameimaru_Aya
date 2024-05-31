@@ -9,9 +9,10 @@ import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 public class AdvertisementAction extends AbstractGameAction {
     private boolean freeToPlayOnce;
     private final AbstractPlayer p;
-    private int energyOnUse;
-    private boolean upgraded;
-    private String[] TEXT = {
+    private final int energyOnUse;
+    private final boolean upgraded;
+    private final int cost_up;
+    private final String[] TEXT = {
             "选择一张牌并生成1张它的快照",
             "大新闻!",
             "获得快照.",
@@ -22,13 +23,15 @@ public class AdvertisementAction extends AbstractGameAction {
     public AdvertisementAction(final AbstractPlayer p,
                                final boolean upgraded,
                                final boolean freeToPlayOnce,
-                               final int energyOnUse) {
+                               final int energyOnUse,
+                               final int cost_up) {
         this.freeToPlayOnce = false;
         this.p = p;
         this.freeToPlayOnce = freeToPlayOnce;
         actionType = ActionType.SPECIAL;
         this.energyOnUse = energyOnUse;
         this.upgraded = upgraded;
+        this.cost_up = cost_up;
     }
 
     @Override
@@ -46,7 +49,7 @@ public class AdvertisementAction extends AbstractGameAction {
         }
         if (effect > 0) {
             while(effect>0) {
-                AbstractDungeon.actionManager.addToBottom(new AyaCameraAction(AbstractDungeon.player, 1, TEXT, false, 2));
+                AbstractDungeon.actionManager.addToBottom(new AyaCameraAction(AbstractDungeon.player, 1, TEXT, false, cost_up));
                 effect--;
             }
             if (!freeToPlayOnce) {

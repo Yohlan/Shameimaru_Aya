@@ -1,5 +1,6 @@
 package theAya.cards;
 import basemod.abstracts.CustomCard;
+import com.badlogic.gdx.graphics.Color;
 
 public abstract class AbstractDefaultCard extends CustomCard {
 

@@ -12,7 +12,6 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.google.gson.Gson;
 import com.megacrit.cardcrawl.core.Settings;
-import com.megacrit.cardcrawl.dungeons.TheCity;
 import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.localization.*;
@@ -22,7 +21,6 @@ import org.apache.logging.log4j.Logger;
 import theAya.animation.AbstractAnimation;
 import theAya.cards.*;
 import theAya.characters.TheAya;
-import theAya.events.IdentityCrisisEvent;
 import theAya.potions.PlaceholderPotion;
 import theAya.relics.AyaCamera;
 import theAya.relics.AyaNote;
@@ -336,13 +334,13 @@ public class AyaMod implements
 
         // Create a new event builder
         // Since this is a builder these method calls (outside of create()) can be skipped/added as necessary
-        AddEventParams eventParams = new AddEventParams.Builder(IdentityCrisisEvent.ID, IdentityCrisisEvent.class) // for this specific event
-            .dungeonID(TheCity.ID) // The dungeon (act) this event will appear in
-            .playerClass(TheAya.Enums.THE_AYA) // Character specific event
-            .create();
+//        AddEventParams eventParams = new AddEventParams.Builder(IdentityCrisisEvent.ID, IdentityCrisisEvent.class) // for this specific event
+//            .dungeonID(TheCity.ID) // The dungeon (act) this event will appear in
+//            .playerClass(TheAya.Enums.THE_AYA) // Character specific event
+//            .create();
         windSpeedDisplayUnit = new WindSpeedDisplayUnit();
         // Add the event
-        BaseMod.addEvent(eventParams);
+//        BaseMod.addEvent(eventParams);
 
         // =============== /EVENTS/ =================
         logger.info("Done loading badge Image and mod options");

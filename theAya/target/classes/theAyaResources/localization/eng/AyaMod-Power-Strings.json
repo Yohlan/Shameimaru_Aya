@@ -32,5 +32,96 @@
     "DESCRIPTIONS": [
       "This enemy will be #yStunned when has #b3 #yTremble."
     ]
+  },
+  "theAya:AirplaneMode": {
+    "NAME": "Airplane Mode",
+    "DESCRIPTIONS": [
+      "At the start of your turn, gain #b4 #yFlight."
+    ]
+  },
+  "theAya:TrucePower": {
+    "NAME": "Truce",
+    "DESCRIPTIONS": [
+      "At the start of your next turn, gain #b",
+      " #yWind #ySpeed, and stop gaining #yWind #ySpeed this turn."
+    ]
+  },
+  "theAya:FieryComboPower": {
+    "NAME": "Fiery Combo",
+    "DESCRIPTIONS": [
+      "When you play a card while in #yThe #yWind #yof #yWarfare, gain #b1 #yStrength."
+    ]
+  },
+  "theAya:ShiftingTenguPower": {
+    "NAME": "Shifting Tengu",
+    "DESCRIPTIONS": [
+      "Gain #b10 #yWind #ySpeed each time you switch #yThe #yWind."
+    ]
+  },
+  "theAya:ConvectionPower": {
+    "NAME": "Convection",
+    "DESCRIPTIONS": [
+      "Deal #b3 damage to ALL enemies whenever you gain #b30 #yWind #ySpeed."
+    ]
+  },
+  "theAya:PrinterPower": {
+    "NAME": "Printer",
+    "DESCRIPTIONS": [
+      "At the start of your turn, choose #b1 card in your hand to gain its #ySnapshot, and increase its cost by #b1."
+    ]
+  },
+  "theAya:WindTurbinePower": {
+    "NAME": "Wind Turbine",
+    "DESCRIPTIONS": [
+      "At the start of your turn, lose #b20 #yWind #ySpeed, and gain [E]."
+    ]
+  },
+  "theAya:LockOnTargetPower": {
+    "NAME": "Lock On Target",
+    "DESCRIPTIONS": [
+      "At the start of your turn, apply #b1 #yTengu #yMark and #b1 #yBlack #yFeather to a random enemy."
+    ]
+  },
+  "theAya:TenguMarkPower": {
+    "NAME": "Tengu Mark",
+    "DESCRIPTIONS": [
+      "Whenever this enemy takes damage, gain #b2 #yWind #ySpeed, and lose #b1 stack at the end of your turn."
+    ]
+  },
+  "theAya:BlackFeatherPower": {
+    "NAME": "Black Feather",
+    "DESCRIPTIONS": [
+      "Upon death, give you #yFlight equal to the number of stacks."
+    ]
+  },
+  "theAya:BouncingAyaPower": {
+    "NAME": "Bouncing Aya",
+    "DESCRIPTIONS": [
+      "Whenever you lose all #yWind #ySpeed, gain #b15 #yWind #ySpeed and #b1 #yFlight, can trigger at most #b10 times per turn."
+    ]
+  },
+  "theAya:NewspaperUpgradePower": {
+    "NAME": "Newspaper Upgrade",
+    "DESCRIPTIONS": [
+      "The cost of the #ySnapshot generated is reduced by #b1."
+    ]
+  },
+  "theAya:UnknownMaruPower": {
+    "NAME": "?? Maru",
+    "DESCRIPTIONS": [
+      "At the start of your turn, apply #b1 #yTremble to a random enemy."
+    ]
+  },
+  "theAya:UpdraftPower": {
+    "NAME": "Updraft",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b1 #yFlight for every #b30 #yWind #ySpeed you have."
+    ]
+  },
+  "theAya:FastestInGensokyoPower": {
+    "NAME": "Fastest In Gensokyo",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b10 #yWind #ySpeed for every #b1 #yFlight you have."
+    ]
   }
 }

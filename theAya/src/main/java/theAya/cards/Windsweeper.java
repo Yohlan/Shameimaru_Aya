@@ -1,7 +1,9 @@
 package theAya.cards;
 
 import basemod.patches.com.megacrit.cardcrawl.cards.AbstractCard.MultiCardPreview;
+import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.actions.watcher.ChooseOneAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -24,8 +26,7 @@ public class Windsweeper extends AbstractDynamicCard {
     public static final String IMG = makeCardPath("Windsweeper.png");
 
     public static final String NAME = cardStrings.NAME;
-    public static final String UPGRADE_DESCRIPTION = cardStrings.UPGRADE_DESCRIPTION;
-    private static final int BASE_MAGIC_NUMBER = 15;
+    private static final int BASE_MAGIC_NUMBER = 20;
 
     // /TEXT DECLARATION/
 
@@ -50,10 +51,12 @@ public class Windsweeper extends AbstractDynamicCard {
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        int amount = upgraded? 2:1;
-        if(TheAya.getWindSpeed()>= this.baseMagicNumber){
+        int counter = 0;
+        while(TheAya.getWindSpeed()>= this.baseMagicNumber){
             TheAya.loseWindSpeed(baseMagicNumber);
-            addToBot(new GainEnergyAction(amount));
+            addToBot(new DrawCardAction(p,1));
+            counter++;
+            if(counter >= 10) break;
         }
     }
 
@@ -62,8 +65,17 @@ public class Windsweeper extends AbstractDynamicCard {
     public void upgrade() {
         if (!upgraded) {
             upgradeName();
-            rawDescription = UPGRADE_DESCRIPTION;
+            upgradeMagicNumber(-5);
             initializeDescription();
+        }
+    }
+    private final Color dGlowColor = this.glowColor;
+    @Override
+    public void triggerOnGlowCheck() {
+        if (TheAya.getWindSpeed() < magicNumber) {
+            this.glowColor = dGlowColor;
+        } else {
+            this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         }
     }
 }

@@ -51,4 +51,5 @@ public class Convection extends AbstractDynamicCard {
             initializeDescription();
         }
     }
+
 }

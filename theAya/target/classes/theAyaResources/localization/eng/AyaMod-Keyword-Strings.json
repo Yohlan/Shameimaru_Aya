@@ -9,7 +9,7 @@
       "Wind_Speed",
       "Windspeed"
     ],
-    "DESCRIPTION": "When a card enters or leaves your hand, increase this by #b1. At the start of your turn, decrease this by #b15."
+    "DESCRIPTION": "Whenever a card enters your hand, discard pile, or is exhausted, increase by #b1. At the start of your turn, decrease by #b15."
   },
   {
     "PROPER_NAME": "Wind",
@@ -17,13 +17,13 @@
       "Wind",
       "wind"
     ],
-    "DESCRIPTION": "If the corresponding Wind Speed is reached, expending them will activate the effect."
+    "DESCRIPTION": "When you have the corresponding #yWind #ySpeed, consume them and trigger the effect, if you have multiple, trigger them in order."
   },
   {
     "PROPER_NAME": "Flight",
     "NAMES": [
-        "Flight",
-        "flight"
+      "Flight",
+      "flight"
     ],
     "DESCRIPTION": "Reduce the damage you take from enemy attack by #b50%."
   },
@@ -33,7 +33,7 @@
       "Continuous",
       "continuous"
     ],
-    "DESCRIPTION": "If your #yWind #ySpeed is still at the required level, you can continue to use this effect."
+    "DESCRIPTION": "When you still have the corresponding #yWind #ySpeed, consume them and trigger the effect continuously (up to #b10 times)."
   },
   {
     "PROPER_NAME": "Snapshot",
@@ -66,5 +66,61 @@
       "tremble"
     ],
     "DESCRIPTION": "Enemy will be #yStunned when has #b3 Tremble."
+  },
+  {
+    "PROPER_NAME": "Tengu Mark",
+    "NAMES": [
+      "Tengu Mark",
+      "Tengu_Mark",
+      "tengu_mark",
+      "tengu mark"
+    ],
+    "DESCRIPTION": "Whenever this enemy takes damage, gain #b2 #yWind #ySpeed, and lose #b1 stack at the end of your turn."
+  },
+  {
+    "PROPER_NAME": "Black Feather",
+    "NAMES": [
+      "Black Feather",
+      "Black_Feather",
+      "black_feather",
+      "black feather"
+    ],
+    "DESCRIPTION": "Upon death, give you #yFlight equal to the number of stacks."
+  },
+  {
+    "PROPER_NAME": "The Wind of Warfare",
+    "NAMES": [
+      "The Wind of Warfare",
+      "The_Wind_of_Warfare",
+      "the wind of warfare"
+    ],
+    "DESCRIPTION": "Order: The Wind of Soaring, The Wind of Warfare, The Wind of Resistance, The Wind of Healing."
+  },
+  {
+    "PROPER_NAME": "The Wind of Healing",
+    "NAMES": [
+      "The Wind of Healing",
+      "The_Wind_of_Healing",
+      "the wind of healing"
+    ],
+    "DESCRIPTION": "Order: The Wind of Soaring, The Wind of Warfare, The Wind of Resistance, The Wind of Healing."
+  },
+  {
+    "PROPER_NAME": "The Wind of Soaring",
+    "NAMES": [
+      "The Wind of Soaring",
+      "The_Wind_of_Soaring",
+      "the wind of soaring"
+    ],
+    "DESCRIPTION": "Order: The Wind of Soaring, The Wind of Warfare, The Wind of Resistance, The Wind of Healing."
+  },
+  {
+    "PROPER_NAME": "The Wind of Resistance",
+    "NAMES": [
+      "The Wind of Resistance",
+      "The_Wind_of_Resistance",
+      "the wind of resistance"
+    ],
+    "DESCRIPTION": "Order: The Wind of Soaring, The Wind of Warfare, The Wind of Resistance, The Wind of Healing."
   }
 ]

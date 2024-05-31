@@ -1,16 +1,16 @@
 {
   "theAya:WindSpeedDisplayUnit": {
     "TEXT": [
-      "Wind Speed",
-        "When a card enters or leaves your hand, increase this by #b1. At the start of your turn, decrease this by #b15.",
-      "The Wind of Soaring",
-        "At the end of your turn, if you have at least #b30 #yWind #ySpeed, gain #b1 #yFlight and change this into #yThe #yWind #yof #yWarfare.",
-      "The Wind of Warfare",
-        "At the end of your turn, if you have at least #b30 #yWind #ySpeed, gain #b1 #yStrength and change this into #yThe #yWind #yof #yResistance.",
-      "The Wind of Resistance",
-        "At the end of your turn, if you have at least #b30 #yWind #ySpeed, gain #b15 #yBlock and change this into #yThe #yWind #yof #yHealing.",
-      "The Wind of Healing",
-        "At the end of your turn, if you have at least #b30 #yWind #ySpeed, gain #b5 #yTemporary #yHP and change this into #yThe #yWind #yof #ySoaring."
+      "風速",
+      "每當一張牌進入手牌,棄牌堆或被消耗,提升 #b1 點.每回合開始,減少 #b15 點.",
+      "翺翔之風",
+      "每回合結束,如果你至少有 #b30 #y風速,獲得 #b2 點 #y飛行 並進入 #y進攻之風.",
+      "進攻之風",
+      "每回合結束,如果你至少有 #b30 #y風速,獲得 #b1 點 #y力量 並進入 #y抵禦之風.",
+      "抵禦之風",
+      "每回合結束,如果你至少有 #b30 #y風速,獲得 #b15 點 #y格擋 並進入 #y治愈之風.",
+      "治愈之風",
+      "每回合結束,如果你至少有 #b30 #y風速,獲得 #b5 點 #y臨時血量 並進入 #y翺翔之風."
     ]
   }
 }
