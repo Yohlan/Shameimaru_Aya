@@ -188,7 +188,7 @@
   },
   "theAya:WindGodGirl": {
     "NAME": "风神少女",
-    "DESCRIPTION": "如果处于 theaya:翱翔之风 ,将 theaya:风速 翻 !M! 倍. NL theaya:风力 20:先进入翱翔之风."
+    "DESCRIPTION": "如果处于 theaya:翱翔之风 ,将 theaya:风速 翻 !M! 倍. NL theaya:风力 20:先进入翱翔之风. NL 消耗 ."
   },
   "theAya:TurbulentLand": {
     "NAME": "动荡之地",

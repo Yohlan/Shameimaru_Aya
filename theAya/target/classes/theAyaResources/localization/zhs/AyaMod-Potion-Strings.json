@@ -1,6 +1,32 @@
 {
-"theAya:PlaceholderPotion": {
-        "NAME": "Placeholder Potion",
-        "DESCRIPTIONS": ["Gain ", " At the end of your turn, lose ", " Strength."]
-}
+  "theAya:DizzyPotion": {
+    "NAME": "晕眩药水",
+    "DESCRIPTIONS": [
+      "击晕一名敌人。"
+    ]
+  },
+  "theAya:WindPotion": {
+    "NAME": "风之药水",
+    "DESCRIPTIONS": [
+      "获得 #b50 点 #y风速 。"
+    ]
+  },
+  "theAya:SnapshotPotion": {
+    "NAME": "快照药水",
+    "DESCRIPTIONS": [
+      "随机获得一张手牌的 #y快照 。"
+    ]
+  },
+  "theAya:ConversionPotion": {
+    "NAME": "转换药水",
+    "DESCRIPTIONS": [
+      "触发一次风种转换。"
+    ]
+  },
+  "theAya:FlyingPotion": {
+    "NAME": "飞行药水",
+    "DESCRIPTIONS": [
+      "获得 #b3 点 #y飞行 。"
+    ]
+  }
 }

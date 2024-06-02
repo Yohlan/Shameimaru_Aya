@@ -20,5 +20,27 @@
       "Exhaust.",
       "Ethereal."
     ]
+  },
+  "theAya:Wing": {
+    "NAME": "Wing",
+    "FLAVOR": "Fly.",
+    "DESCRIPTIONS": [
+      "At the start of combat, gain #y3 #yFlight."
+    ]
+  },
+  "theAya:TenguMask": {
+    "NAME": "Tengu Mask",
+    "FLAVOR": "Strong aura.",
+    "DESCRIPTIONS": [
+      "At the start of combat, stun all enemies."
+    ]
+  },
+  "theAya:Newspaper": {
+    "NAME": "Newspaper",
+    "FLAVOR": "Traditional news.",
+    "DESCRIPTIONS": [
+      "At the start of combat, gain #b1 random #ySnapshot."
+    ]
   }
 }
+

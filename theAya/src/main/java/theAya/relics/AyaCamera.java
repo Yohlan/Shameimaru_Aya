@@ -18,12 +18,6 @@ import static theAya.AyaMod.makeRelicPath;
 
 public class AyaCamera extends CustomRelic implements ClickableRelic {
 
-    /*
-     * https://github.com/daviscook477/BaseMod/wiki/Custom-Relics
-     *
-     * Gain 1 energy.
-     */
-
     // ID, images, text.
     public static final String ID = AyaMod.makeID("AyaCamera");
 

@@ -1,4 +1,5 @@
 package theAya.cards;
+
 import com.badlogic.gdx.graphics.Color;
 import com.evacipated.cardcrawl.mod.stslib.patches.core.AbstractCreature.TempHPField;
 import com.megacrit.cardcrawl.actions.common.HealAction;
@@ -16,38 +17,33 @@ import static theAya.AyaMod.makeCardPath;
 public class WindGodGirl extends AbstractDynamicCard {
 
 
-
     public static final String ID = AyaMod.makeID(WindGodGirl.class.getSimpleName());
     public static final String IMG = makeCardPath("WindGodGirl.png");
-
-
-
-
+    public static final CardColor COLOR = TheAya.Enums.COLOR_GRAY;
     private static final CardRarity RARITY = CardRarity.UNCOMMON;
     private static final CardTarget TARGET = CardTarget.SELF;
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
     public static final String NAME = cardStrings.NAME;
     private static final CardType TYPE = CardType.SKILL;
-    public static final CardColor COLOR = TheAya.Enums.COLOR_GRAY;
-
     private static final int COST = 1;
 
     // /STAT DECLARATION/
-
+    private final Color dGlowColor = this.glowColor;
 
     public WindGodGirl() {
         super(ID, IMG, COST, TYPE, COLOR, RARITY, TARGET);
         baseMagicNumber = 2;
+        this.exhaust = true;
     }
 
     // Actions the card should do.
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if(TheAya.getWindSpeed()>=20){
+        if (TheAya.getWindSpeed() >= 20) {
             TheAya.loseWindSpeed(20);
             TheAya.changeWindType(WindSpeedDisplayUnit.WindType.SOAR);
         }
-        if(TheAya.windType == WindSpeedDisplayUnit.WindType.SOAR){
+        if (TheAya.windType == WindSpeedDisplayUnit.WindType.SOAR) {
             int windSpeed = TheAya.getWindSpeed();
             int value = windSpeed * baseMagicNumber - windSpeed;
             TheAya.gainWindSpeed(value);
@@ -63,7 +59,7 @@ public class WindGodGirl extends AbstractDynamicCard {
             initializeDescription();
         }
     }
-    private final Color dGlowColor = this.glowColor;
+
     @Override
     public void triggerOnGlowCheck() {
         if (TheAya.getWindSpeed() < 10) {

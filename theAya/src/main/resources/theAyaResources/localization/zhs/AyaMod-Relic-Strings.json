@@ -20,5 +20,26 @@
       "消耗 .",
       "虚无 ."
     ]
+  },
+  "theAya:Wing": {
+    "NAME": "翅膀",
+    "FLAVOR": "飞翔.",
+    "DESCRIPTIONS": [
+      "战斗开始时,获得3点 #y飞行 ."
+    ]
+  },
+  "theAya:TenguMask": {
+    "NAME": "天狗面具",
+    "FLAVOR": "很强的气场.",
+    "DESCRIPTIONS": [
+      "战斗开始时,击晕所有敌人."
+    ]
+  },
+  "theAya:Newspaper": {
+    "NAME": "报纸",
+    "FLAVOR": "传统新闻.",
+    "DESCRIPTIONS": [
+      "战斗开始时,获得 #b1 张随机的 #y快照 ."
+    ]
   }
 }

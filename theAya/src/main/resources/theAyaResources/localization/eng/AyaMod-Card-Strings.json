@@ -188,7 +188,7 @@
   },
   "theAya:WindGodGirl": {
     "NAME": "Wind God Girl",
-    "DESCRIPTION": "If you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Soaring[] this turn, multiply theaya:Wind_Speed by !M!. NL theaya:Wind 20: Enter The Wind of Soaring first."
+    "DESCRIPTION": "If you are in [#EFC851]The [#EFC851]Wind [#EFC851]of [#EFC851]Soaring[] this turn, multiply theaya:Wind_Speed by !M!. NL theaya:Wind 20: Enter The Wind of Soaring first. NL Exhaust."
   },
   "theAya:TurbulentLand": {
     "NAME": "Turbulent Land",

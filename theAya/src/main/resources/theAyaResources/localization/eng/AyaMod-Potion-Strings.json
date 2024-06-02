@@ -1,6 +1,33 @@
 {
-"theAya:PlaceholderPotion": {
-        "NAME": "Placeholder Potion",
-        "DESCRIPTIONS": ["Gain ", " At the end of your turn, lose ", " Strength."]
+  "theAya:DizzyPotion": {
+    "NAME": "Dizzy Potion",
+    "DESCRIPTIONS": [
+      "Stun an enemy."
+    ]
+  },
+  "theAya:WindPotion": {
+    "NAME": "Wind Potion",
+    "DESCRIPTIONS": [
+      "Gain #b50 #yWind #ySpeed."
+    ]
+  },
+  "theAya:SnapshotPotion": {
+    "NAME": "Snapshot Potion",
+    "DESCRIPTIONS": [
+      "Take a #ySnapshot of a random card in your hand."
+    ]
+  },
+  "theAya:ConversionPotion": {
+    "NAME": "Conversion Potion",
+    "DESCRIPTIONS": [
+      "Trigger a Wind Conversion."
+    ]
+  },
+  "theAya:FlyingPotion": {
+    "NAME": "Flying Potion",
+    "DESCRIPTIONS": [
+      "Gain #b3 #yFlight."
+    ]
+  }
 }
-}
+
